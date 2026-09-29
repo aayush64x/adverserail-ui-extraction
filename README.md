@@ -1,5 +1,3 @@
-# adverserail-ui-extraction
-
 # vision-scraping-robustness
 
 Research project with Dr. Kendall-Morwick. Question: how well does vision-only extraction from screenshots hold up against adversarial UI changes? Mastodon is the test environment: we run it locally and later modify its layout to act as the adversary.
