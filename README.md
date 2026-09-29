@@ -1,5 +1,8 @@
 # vision-scraping-robustness
 
+- Version: `main` @ commit `3b43a085d0` (343 commits after `v4.7.0-beta.1`)
+- To reproduce: `git clone https://github.com/mastodon/mastodon.git && cd mastodon && git checkout 3b43a085d0`
+
 Research project with Dr. Kendall-Morwick. Question: how well does vision-only extraction from screenshots hold up against adversarial UI changes? Mastodon is the test environment: we run it locally and later modify its layout to act as the adversary.
 
 This file documents how the local Mastodon instance is set up and run, so it can be reproduced on any machine.
