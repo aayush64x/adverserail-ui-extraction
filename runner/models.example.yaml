@@ -1,0 +1,11 @@
+# Example for models/models.yaml. Prices are USD per 1M tokens - CHECK them on
+# https://openrouter.ai/models before running (they change). Placeholder values below.
+models:
+  - id: qwen/qwen2.5-vl-7b-instruct      # vision model -> runs vision, text_html, text_inner
+    vision: true
+    price_in_per_m: 0.20
+    price_out_per_m: 0.20
+  - id: meta-llama/llama-3.1-8b-instruct # text-only -> runs text_html, text_inner
+    vision: false
+    price_in_per_m: 0.02
+    price_out_per_m: 0.05

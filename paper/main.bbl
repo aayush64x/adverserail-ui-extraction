@@ -1,0 +1,325 @@
+\begin{thebibliography}{40}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bai et~al.(2025{\natexlab{a}})Bai, Cai, Chen, Chen, Chen, Cheng, Deng,
+  Ding, et~al.]{bai2025qwen3vl}
+Shuai Bai, Yuxuan Cai, Ruizhe Chen, Keqin Chen, Xionghui Chen, Zesen Cheng,
+  Lianghao Deng, Wei Ding, et~al.
+\newblock {Qwen3-VL} technical report, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2511.21631}.
+
+\bibitem[Bai et~al.(2025{\natexlab{b}})Bai, Chen, Liu, Wang, Ge, Song, Dang,
+  Wang, et~al.]{bai2025qwen25vl}
+Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai
+  Dang, Peng Wang, et~al.
+\newblock {Qwen2.5-VL} technical report, 2025{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2502.13923}.
+
+\bibitem[Boucher et~al.(2022)Boucher, Shumailov, Anderson, and
+  Papernot]{boucher2022badcharacters}
+Nicholas Boucher, Ilia Shumailov, Ross Anderson, and Nicolas Papernot.
+\newblock Bad characters: Imperceptible {NLP} attacks.
+\newblock In \emph{43rd IEEE Symposium on Security and Privacy (S\&P)}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2106.09898}.
+
+\bibitem[Cao et~al.(2026)Cao, Lim, Liu, Sui, Li, Deng, Lu, Oo, Yan, and
+  Hooi]{cao2026vpibench}
+Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay
+  Oo, Shuicheng Yan, and Bryan Hooi.
+\newblock {VPI-Bench}: Visual prompt injection attacks for computer-use agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2506.02456}.
+
+\bibitem[Cheng et~al.(2024{\natexlab{a}})Cheng, Xiao, Gu, Yang, Duan, Zhang,
+  Cao, Xu, and Xu]{cheng2024typographic}
+Hao Cheng, Erjia Xiao, Jindong Gu, Le~Yang, Jinhao Duan, Jize Zhang, Jiahang
+  Cao, Kaidi Xu, and Renjing Xu.
+\newblock Unveiling typographic deceptions: Insights of the typographic
+  vulnerability in large vision-language model, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2402.19150}.
+
+\bibitem[Cheng et~al.(2024{\natexlab{b}})Cheng, Sun, Chu, Xu, Li, Zhang, and
+  Wu]{cheng2024seeclick}
+Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang,
+  and Zhiyong Wu.
+\newblock {SeeClick}: Harnessing {GUI} grounding for advanced visual {GUI}
+  agents, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2401.10935}.
+
+\bibitem[Cuvin et~al.(2026)Cuvin, Zhu, and Yang]{cuvin2025decepticon}
+Phil Cuvin, Hao Zhu, and Diyi Yang.
+\newblock {DECEPTICON}: How dark patterns manipulate web agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2512.22894}.
+\newblock arXiv:2512.22894.
+
+\bibitem[Deng et~al.(2023)Deng, Gu, Zheng, Chen, Stevens, Wang, Sun, and
+  Su]{deng2023mind2web}
+Xiang Deng, Yu~Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan
+  Sun, and Yu~Su.
+\newblock {Mind2Web}: Towards a generalist agent for the web, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.06070}.
+
+\bibitem[Ding et~al.(2025)Ding, Deng, Liu, Ding, Chen, Sui, and
+  Li]{ding2025illusioncaptcha}
+Ziqi Ding, Gelei Deng, Yi~Liu, Junchen Ding, Jieshan Chen, Yulei Sui, and
+  Yuekang Li.
+\newblock {IllusionCAPTCHA}: A {CAPTCHA} based on visual illusion.
+\newblock In \emph{Proceedings of the ACM Web Conference 2025 (WWW)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.05461}.
+
+\bibitem[Ersoy et~al.(2026)Ersoy, Lee, Shreekumar, Arunasalam, Ibrahim,
+  Bianchi, and Celik]{ersoy2026darkpatterns}
+Devin Ersoy, Brandon Lee, Ananth Shreekumar, Arjun Arunasalam, Muhammad
+  Ibrahim, Antonio Bianchi, and Z.~Berkay Celik.
+\newblock Investigating the impact of dark patterns on {LLM}-based web agents.
+\newblock In \emph{IEEE Symposium on Security and Privacy (S\&P)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2510.18113}.
+\newblock arXiv:2510.18113.
+
+\bibitem[{Gemma Team}(2025)]{gemmateam2025gemma3}
+{Gemma Team}.
+\newblock {Gemma 3} technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.19786}.
+
+\bibitem[Greshake et~al.(2023)Greshake, Abdelnabi, Mishra, Endres, Holz, and
+  Fritz]{greshake2023indirect}
+Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten
+  Holz, and Mario Fritz.
+\newblock Not what you've signed up for: Compromising real-world
+  {LLM}-integrated applications with indirect prompt injection, 2023.
+\newblock URL \url{https://arxiv.org/abs/2302.12173}.
+
+\bibitem[Gur et~al.(2023)Gur, Nachum, Miao, Safdari, Huang, Chowdhery, Narang,
+  Fiedel, and Faust]{gur2023html}
+Izzeddin Gur, Ofir Nachum, Yingjie Miao, Mustafa Safdari, Austin Huang,
+  Aakanksha Chowdhery, Sharan Narang, Noah Fiedel, and Aleksandra Faust.
+\newblock Understanding {HTML} with large language models.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, 2023.
+\newblock URL \url{https://aclanthology.org/2023.findings-emnlp.185}.
+
+\bibitem[He et~al.(2024)He, Yao, Ma, Yu, Dai, Zhang, Lan, and
+  Yu]{he2024webvoyager}
+Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang,
+  Zhenzhong Lan, and Dong Yu.
+\newblock {WebVoyager}: Building an end-to-end web agent with large multimodal
+  models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.13919}.
+
+\bibitem[Hong et~al.(2024)Hong, Wang, Lv, Xu, Yu, Ji, Wang, Wang, Zhang, Li,
+  Xu, Dong, Ding, and Tang]{hong2023cogagent}
+Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan
+  Wang, Zihan Wang, Yuxuan Zhang, Juanzi Li, Bin Xu, Yuxiao Dong, Ming Ding,
+  and Jie Tang.
+\newblock {CogAgent}: A visual language model for {GUI} agents.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2312.08914}.
+\newblock arXiv:2312.08914.
+
+\bibitem[Huang et~al.(2024)Huang, Gu, Peng, Li, Liang, Xiao, Wen, and
+  Chen]{huang2024autoscraper}
+Wenhao Huang, Zhouhong Gu, Chenghao Peng, Zhixu Li, Jiaqing Liang, Yanghua
+  Xiao, Liqian Wen, and Zulong Chen.
+\newblock {AutoScraper}: A progressive understanding web agent for web scraper
+  generation.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.12753}.
+
+\bibitem[Kim et~al.(2022)Kim, Hong, Yim, Nam, Park, Yim, Hwang, Yun, Han, and
+  Park]{kim2022donut}
+Geewook Kim, Teakgyu Hong, Moonbin Yim, Jeongyeon Nam, Jinyoung Park, Jinyeong
+  Yim, Wonseok Hwang, Sangdoo Yun, Dongyoon Han, and Seunghyun Park.
+\newblock {OCR}-free document understanding transformer.
+\newblock In \emph{European Conference on Computer Vision (ECCV)}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2111.15664}.
+
+\bibitem[Kim et~al.(2025)Kim, Kim, and Jeong]{kim2025nexteval}
+Soyeon Kim, Namhee Kim, and Yeonwoo Jeong.
+\newblock {NEXT-EVAL}: Next evaluation of traditional and {LLM} web data record
+  extraction, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.17125}.
+
+\bibitem[Koh et~al.(2024)Koh, Lo, Jang, Duvvur, Lim, Huang, Neubig, Zhou,
+  Salakhutdinov, and Fried]{koh2024visualwebarena}
+Jing~Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming~Chong Lim, Po-Yu
+  Huang, Graham Neubig, Shuyan Zhou, Ruslan Salakhutdinov, and Daniel Fried.
+\newblock {VisualWebArena}: Evaluating multimodal agents on realistic visual
+  web tasks, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.13649}.
+
+\bibitem[Lee et~al.(2023)Lee, Joshi, Turc, Hu, Liu, Eisenschlos, Khandelwal,
+  Shaw, Chang, and Toutanova]{lee2023pix2struct}
+Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian
+  Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, and Kristina
+  Toutanova.
+\newblock {Pix2Struct}: Screenshot parsing as pretraining for visual language
+  understanding.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning (ICML)}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2210.03347}.
+
+\bibitem[Li et~al.(2022)Li, Xu, Cui, and Wei]{li2022markuplm}
+Junlong Li, Yiheng Xu, Lei Cui, and Furu Wei.
+\newblock {MarkupLM}: Pre-training of text and markup language for
+  visually-rich document understanding.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (ACL)}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2110.08518}.
+
+\bibitem[Liao et~al.(2025)Liao, Mo, Xu, Kang, Zhang, Xiao, Tian, Li, and
+  Sun]{liao2024eia}
+Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao,
+  Yuan Tian, Bo~Li, and Huan Sun.
+\newblock {EIA}: Environmental injection attack on generalist web agents for
+  privacy leakage.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2409.11295}.
+\newblock arXiv:2409.11295.
+
+\bibitem[Liu et~al.(2024)Liu, Song, Lin, Lam, Neubig, Li, and
+  Yue]{liu2024visualwebbench}
+Junpeng Liu, Yifan Song, Bill~Yuchen Lin, Wai Lam, Graham Neubig, Yuanzhi Li,
+  and Xiang Yue.
+\newblock {VisualWebBench}: How far have multimodal {LLMs} evolved in web page
+  understanding and grounding?, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.05955}.
+
+\bibitem[Liu et~al.(2023)Liu, Li, Huang, Yang, Yu, Li, Yin, Liu, Jin, and
+  Bai]{liu2023ocrbench}
+Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen Yu, Chunyuan Li,
+  Xucheng Yin, Cheng-lin Liu, Lianwen Jin, and Xiang Bai.
+\newblock {OCRBench}: On the hidden mystery of {OCR} in large multimodal
+  models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.07895}.
+
+\bibitem[Lu et~al.(2024)Lu, Yang, Shen, and Awadallah]{lu2024omniparser}
+Yadong Lu, Jianwei Yang, Yelong Shen, and Ahmed Awadallah.
+\newblock {OmniParser} for pure vision based {GUI} agent, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.00203}.
+
+\bibitem[Luo et~al.(2025)Luo, Li, Liu, Cui, Zhao, and
+  Shen]{luo2025opencaptchaworld}
+Yaxin Luo, Zhaoyi Li, Jiacheng Liu, Jiacheng Cui, Xiaohan Zhao, and Zhiqiang
+  Shen.
+\newblock Open {CaptchaWorld}: A comprehensive web-based platform for testing
+  and benchmarking multimodal {LLM} agents, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.24878}.
+
+\bibitem[Ma et~al.(2024)Ma, Wang, Yao, Yuan, Zhang, Zhang, and
+  Zhao]{ma2024caution}
+Xinbei Ma, Yiting Wang, Yao Yao, Tongxin Yuan, Aston Zhang, Zhuosheng Zhang,
+  and Hai Zhao.
+\newblock Caution for the environment: Multimodal {LLM} agents are susceptible
+  to environmental distractions, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.02544}.
+
+\bibitem[{NVIDIA} et~al.(2025){NVIDIA}, Deshmukh, Chumachenko, Rintamaki, Le,
+  Poon, Taheri, et~al.]{nvidia2025nemotronvl}
+{NVIDIA}, Amala~Sanjay Deshmukh, Kateryna Chumachenko, Tuomas Rintamaki,
+  Matthieu Le, Tyler Poon, Danial~Mohseni Taheri, et~al.
+\newblock {NVIDIA Nemotron Nano V2 VL}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.03929}.
+
+\bibitem[Qin et~al.(2025)Qin, Ye, Fang, Wang, Liang, Tian, Zhang, Li, Li,
+  Huang, et~al.]{qin2025uitars}
+Yujia Qin, Yining Ye, Junjie Fang, Haoming Wang, Shihao Liang, Shizuo Tian,
+  Junda Zhang, Jiahao Li, Yunxin Li, Shijue Huang, et~al.
+\newblock {UI-TARS}: Pioneering automated {GUI} interaction with native agents,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2501.12326}.
+
+\bibitem[Rust et~al.(2022)Rust, Lotz, Bugliarello, Salesky, de~Lhoneux, and
+  Elliott]{rust2022pixel}
+Phillip Rust, Jonas~F. Lotz, Emanuele Bugliarello, Elizabeth Salesky, Miryam
+  de~Lhoneux, and Desmond Elliott.
+\newblock Language modelling with pixels, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.06991}.
+
+\bibitem[Salesky et~al.(2021)Salesky, Etter, and Post]{salesky2021robust}
+Elizabeth Salesky, David Etter, and Matt Post.
+\newblock Robust open-vocabulary translation from visual text representations.
+\newblock In \emph{Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2104.08211}.
+
+\bibitem[Tan et~al.(2024)Tan, Dou, Wang, Wang, Chen, and Wen]{tan2024htmlrag}
+Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen, and Ji-Rong Wen.
+\newblock {HtmlRAG}: {HTML} is better than plain text for modeling retrieved
+  knowledge in {RAG} systems, 2024.
+\newblock URL \url{https://arxiv.org/abs/2411.02959}.
+
+\bibitem[Thomas et~al.(2025)Thomas, Chan, Kang, Wu, Christianos, Greenlee,
+  Toulis, and Purtorab]{thomas2025webgames}
+George Thomas, Alex~J. Chan, Jikun Kang, Wenqi Wu, Filippos Christianos, Fraser
+  Greenlee, Andy Toulis, and Marvin Purtorab.
+\newblock {WebGames}: Challenging general-purpose web-browsing {AI} agents,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2502.18356}.
+
+\bibitem[Venugopalan et~al.(2024)Venugopalan, Munir, Ahmed, Wang, King, and
+  Shafiq]{venugopalan2024fpinconsistent}
+Hari Venugopalan, Shaoor Munir, Shuaib Ahmed, Tangbaihe Wang, Samuel~T. King,
+  and Zubair Shafiq.
+\newblock {FP-Inconsistent}: Measurement and analysis of fingerprint
+  inconsistencies in evasive bot traffic, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.07647}.
+
+\bibitem[Verma(2025)]{verma2025htmlinjection}
+Ishaan Verma.
+\newblock Decoding latent attack surfaces in {LLMs}: Prompt injection via
+  {HTML} in web summarization, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.05831}.
+
+\bibitem[Wang et~al.(2026)Wang, Li, Wang, Teiletche, Jin, Zaharia, Gonzalez,
+  and Min]{wang2026pixelrag}
+Yichuan Wang, Zhifei Li, Zirui Wang, Paul Teiletche, Lesheng Jin, Matei
+  Zaharia, Joseph~E. Gonzalez, and Sewon Min.
+\newblock {PIXELRAG}: Web screenshots beat text for retrieval-augmented
+  generation, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.28344}.
+
+\bibitem[Wu et~al.(2025)Wu, Shah, Koh, Salakhutdinov, Fried, and
+  Raghunathan]{wu2025dissecting}
+Chen~Henry Wu, Rishi Shah, Jing~Yu Koh, Ruslan Salakhutdinov, Daniel Fried, and
+  Aditi Raghunathan.
+\newblock Dissecting adversarial robustness of multimodal {LM} agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2406.12814}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Yu, and Yang]{zhang2024popups}
+Yanzhe Zhang, Tao Yu, and Diyi Yang.
+\newblock Attacking vision-language computer agents via pop-ups.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2411.02391}.
+\newblock arXiv:2411.02391.
+
+\bibitem[Zheng et~al.(2024)Zheng, Gou, Kil, Sun, and Su]{zheng2024seeact}
+Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, and Yu~Su.
+\newblock {GPT-4V(ision)} is a generalist web agent, if grounded.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning (ICML)}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.01614}.
+\newblock arXiv:2401.01614.
+
+\bibitem[Zhou et~al.(2023)Zhou, Xu, Zhu, Zhou, Lo, Sridhar, Cheng, Ou, Bisk,
+  Fried, Alon, and Neubig]{zhou2023webarena}
+Shuyan Zhou, Frank~F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar,
+  Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham
+  Neubig.
+\newblock {WebArena}: A realistic web environment for building autonomous
+  agents, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.13854}.
+
+\end{thebibliography}

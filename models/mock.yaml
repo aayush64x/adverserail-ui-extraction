@@ -1,0 +1,6 @@
+# FAKE models for pipeline testing only. Never report these as results.
+models:
+  - id: mock-oracle-vision
+    vision: true
+  - id: mock-oracle-text
+    vision: false

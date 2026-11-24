@@ -1,0 +1,388 @@
+% references.bib -- literature review for FLAIRS-40 paper
+% Vision (screenshot) vs text (HTML) robustness to adversarial UI changes
+% All entries checked against arXiv abstract pages / venue pages on 2026-11-15.
+% Where the arXiv page listed no venue and none was confirmed, the entry is a misc entry.
+% Long author lists are cut with "and others" after the authors we confirmed.
+
+% ======================= Cluster A: vision / screenshot web & GUI agents =======================
+
+@inproceedings{lee2023pix2struct,
+  title     = {{Pix2Struct}: Screenshot Parsing as Pretraining for Visual Language Understanding},
+  author    = {Lee, Kenton and Joshi, Mandar and Turc, Iulia and Hu, Hexiang and Liu, Fangyu and Eisenschlos, Julian and Khandelwal, Urvashi and Shaw, Peter and Chang, Ming-Wei and Toutanova, Kristina},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML)},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2210.03347}
+}
+
+@inproceedings{zheng2024seeact,
+  title     = {{GPT-4V(ision)} is a Generalist Web Agent, if Grounded},
+  author    = {Zheng, Boyuan and Gou, Boyu and Kil, Jihyung and Sun, Huan and Su, Yu},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning (ICML)},
+  year      = {2024},
+  note      = {arXiv:2401.01614},
+  url       = {https://arxiv.org/abs/2401.01614}
+}
+
+@misc{he2024webvoyager,
+  title         = {{WebVoyager}: Building an End-to-End Web Agent with Large Multimodal Models},
+  author        = {He, Hongliang and Yao, Wenlin and Ma, Kaixin and Yu, Wenhao and Dai, Yong and Zhang, Hongming and Lan, Zhenzhong and Yu, Dong},
+  year          = {2024},
+  eprint        = {2401.13919},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2401.13919}
+}
+
+@misc{cheng2024seeclick,
+  title         = {{SeeClick}: Harnessing {GUI} Grounding for Advanced Visual {GUI} Agents},
+  author        = {Cheng, Kanzhi and Sun, Qiushi and Chu, Yougang and Xu, Fangzhi and Li, Yantao and Zhang, Jianbing and Wu, Zhiyong},
+  year          = {2024},
+  eprint        = {2401.10935},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.HC},
+  url           = {https://arxiv.org/abs/2401.10935}
+}
+
+@inproceedings{hong2023cogagent,
+  title     = {{CogAgent}: A Visual Language Model for {GUI} Agents},
+  author    = {Hong, Wenyi and Wang, Weihan and Lv, Qingsong and Xu, Jiazheng and Yu, Wenmeng and Ji, Junhui and Wang, Yan and Wang, Zihan and Zhang, Yuxuan and Li, Juanzi and Xu, Bin and Dong, Yuxiao and Ding, Ming and Tang, Jie},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2024},
+  note      = {arXiv:2312.08914},
+  url       = {https://arxiv.org/abs/2312.08914}
+}
+
+@misc{qin2025uitars,
+  title         = {{UI-TARS}: Pioneering Automated {GUI} Interaction with Native Agents},
+  author        = {Qin, Yujia and Ye, Yining and Fang, Junjie and Wang, Haoming and Liang, Shihao and Tian, Shizuo and Zhang, Junda and Li, Jiahao and Li, Yunxin and Huang, Shijue and others},
+  year          = {2025},
+  eprint        = {2501.12326},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2501.12326}
+}
+
+@misc{lu2024omniparser,
+  title         = {{OmniParser} for Pure Vision Based {GUI} Agent},
+  author        = {Lu, Yadong and Yang, Jianwei and Shen, Yelong and Awadallah, Ahmed},
+  year          = {2024},
+  eprint        = {2408.00203},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2408.00203}
+}
+
+@misc{koh2024visualwebarena,
+  title         = {{VisualWebArena}: Evaluating Multimodal Agents on Realistic Visual Web Tasks},
+  author        = {Koh, Jing Yu and Lo, Robert and Jang, Lawrence and Duvvur, Vikram and Lim, Ming Chong and Huang, Po-Yu and Neubig, Graham and Zhou, Shuyan and Salakhutdinov, Ruslan and Fried, Daniel},
+  year          = {2024},
+  eprint        = {2401.13649},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2401.13649}
+}
+
+@misc{deng2023mind2web,
+  title         = {{Mind2Web}: Towards a Generalist Agent for the Web},
+  author        = {Deng, Xiang and Gu, Yu and Zheng, Boyuan and Chen, Shijie and Stevens, Samuel and Wang, Boshi and Sun, Huan and Su, Yu},
+  year          = {2023},
+  eprint        = {2306.06070},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2306.06070}
+}
+
+@misc{zhou2023webarena,
+  title         = {{WebArena}: A Realistic Web Environment for Building Autonomous Agents},
+  author        = {Zhou, Shuyan and Xu, Frank F. and Zhu, Hao and Zhou, Xuhui and Lo, Robert and Sridhar, Abishek and Cheng, Xianyi and Ou, Tianyue and Bisk, Yonatan and Fried, Daniel and Alon, Uri and Neubig, Graham},
+  year          = {2023},
+  eprint        = {2307.13854},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2307.13854}
+}
+
+@misc{liu2024visualwebbench,
+  title         = {{VisualWebBench}: How Far Have Multimodal {LLMs} Evolved in Web Page Understanding and Grounding?},
+  author        = {Liu, Junpeng and Song, Yifan and Lin, Bill Yuchen and Lam, Wai and Neubig, Graham and Li, Yuanzhi and Yue, Xiang},
+  year          = {2024},
+  eprint        = {2404.05955},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2404.05955}
+}
+
+@misc{wang2026pixelrag,
+  title         = {{PIXELRAG}: Web Screenshots Beat Text for Retrieval-Augmented Generation},
+  author        = {Wang, Yichuan and Li, Zhifei and Wang, Zirui and Teiletche, Paul and Jin, Lesheng and Zaharia, Matei and Gonzalez, Joseph E. and Min, Sewon},
+  year          = {2026},
+  eprint        = {2606.28344},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2606.28344}
+}
+
+% ======================= Cluster B: text / HTML web information extraction =======================
+
+@inproceedings{li2022markuplm,
+  title     = {{MarkupLM}: Pre-training of Text and Markup Language for Visually-rich Document Understanding},
+  author    = {Li, Junlong and Xu, Yiheng and Cui, Lei and Wei, Furu},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2110.08518}
+}
+
+@inproceedings{gur2023html,
+  title     = {Understanding {HTML} with Large Language Models},
+  author    = {Gur, Izzeddin and Nachum, Ofir and Miao, Yingjie and Safdari, Mustafa and Huang, Austin and Chowdhery, Aakanksha and Narang, Sharan and Fiedel, Noah and Faust, Aleksandra},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  year      = {2023},
+  url       = {https://aclanthology.org/2023.findings-emnlp.185}
+}
+
+@inproceedings{huang2024autoscraper,
+  title     = {{AutoScraper}: A Progressive Understanding Web Agent for Web Scraper Generation},
+  author    = {Huang, Wenhao and Gu, Zhouhong and Peng, Chenghao and Li, Zhixu and Liang, Jiaqing and Xiao, Yanghua and Wen, Liqian and Chen, Zulong},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2404.12753}
+}
+
+@misc{tan2024htmlrag,
+  title         = {{HtmlRAG}: {HTML} is Better Than Plain Text for Modeling Retrieved Knowledge in {RAG} Systems},
+  author        = {Tan, Jiejun and Dou, Zhicheng and Wang, Wen and Wang, Mang and Chen, Weipeng and Wen, Ji-Rong},
+  year          = {2024},
+  eprint        = {2411.02959},
+  archivePrefix = {arXiv},
+  doi           = {10.1145/3696410.3714546},
+  url           = {https://arxiv.org/abs/2411.02959}
+}
+
+@misc{kim2025nexteval,
+  title         = {{NEXT-EVAL}: Next Evaluation of Traditional and {LLM} Web Data Record Extraction},
+  author        = {Kim, Soyeon and Kim, Namhee and Jeong, Yeonwoo},
+  year          = {2025},
+  eprint        = {2505.17125},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DB},
+  url           = {https://arxiv.org/abs/2505.17125}
+}
+
+% ======================= Cluster C: robustness / adversarial attacks on agents & VLMs =======================
+
+@inproceedings{zhang2024popups,
+  title     = {Attacking Vision-Language Computer Agents via Pop-ups},
+  author    = {Zhang, Yanzhe and Yu, Tao and Yang, Diyi},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2025},
+  note      = {arXiv:2411.02391},
+  url       = {https://arxiv.org/abs/2411.02391}
+}
+
+@inproceedings{liao2024eia,
+  title     = {{EIA}: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage},
+  author    = {Liao, Zeyi and Mo, Lingbo and Xu, Chejian and Kang, Mintong and Zhang, Jiawei and Xiao, Chaowei and Tian, Yuan and Li, Bo and Sun, Huan},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  note      = {arXiv:2409.11295},
+  url       = {https://arxiv.org/abs/2409.11295}
+}
+
+@misc{ma2024caution,
+  title         = {Caution for the Environment: Multimodal {LLM} Agents are Susceptible to Environmental Distractions},
+  author        = {Ma, Xinbei and Wang, Yiting and Yao, Yao and Yuan, Tongxin and Zhang, Aston and Zhang, Zhuosheng and Zhao, Hai},
+  year          = {2024},
+  eprint        = {2408.02544},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2408.02544}
+}
+
+@inproceedings{wu2025dissecting,
+  title     = {Dissecting Adversarial Robustness of Multimodal {LM} Agents},
+  author    = {Wu, Chen Henry and Shah, Rishi and Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel and Raghunathan, Aditi},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2406.12814}
+}
+
+@misc{cheng2024typographic,
+  title         = {Unveiling Typographic Deceptions: Insights of the Typographic Vulnerability in Large Vision-Language Model},
+  author        = {Cheng, Hao and Xiao, Erjia and Gu, Jindong and Yang, Le and Duan, Jinhao and Zhang, Jize and Cao, Jiahang and Xu, Kaidi and Xu, Renjing},
+  year          = {2024},
+  eprint        = {2402.19150},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2402.19150}
+}
+
+@inproceedings{ersoy2026darkpatterns,
+  title     = {Investigating the Impact of Dark Patterns on {LLM}-Based Web Agents},
+  author    = {Ersoy, Devin and Lee, Brandon and Shreekumar, Ananth and Arunasalam, Arjun and Ibrahim, Muhammad and Bianchi, Antonio and Celik, Z. Berkay},
+  booktitle = {IEEE Symposium on Security and Privacy (S\&P)},
+  year      = {2026},
+  note      = {arXiv:2510.18113},
+  url       = {https://arxiv.org/abs/2510.18113}
+}
+
+@inproceedings{cuvin2025decepticon,
+  title     = {{DECEPTICON}: How Dark Patterns Manipulate Web Agents},
+  author    = {Cuvin, Phil and Zhu, Hao and Yang, Diyi},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026},
+  note      = {arXiv:2512.22894},
+  url       = {https://arxiv.org/abs/2512.22894}
+}
+
+@inproceedings{cao2026vpibench,
+  title     = {{VPI-Bench}: Visual Prompt Injection Attacks for Computer-Use Agents},
+  author    = {Cao, Tri and Lim, Bennett and Liu, Yue and Sui, Yuan and Li, Yuexin and Deng, Shumin and Lu, Lin and Oo, Nay and Yan, Shuicheng and Hooi, Bryan},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2506.02456}
+}
+
+@misc{verma2025htmlinjection,
+  title         = {Decoding Latent Attack Surfaces in {LLMs}: Prompt Injection via {HTML} in Web Summarization},
+  author        = {Verma, Ishaan},
+  year          = {2025},
+  eprint        = {2509.05831},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2509.05831}
+}
+
+@misc{greshake2023indirect,
+  title         = {Not what you've signed up for: Compromising Real-World {LLM}-Integrated Applications with Indirect Prompt Injection},
+  author        = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh and Endres, Christoph and Holz, Thorsten and Fritz, Mario},
+  year          = {2023},
+  eprint        = {2302.12173},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2302.12173}
+}
+
+% ======================= Cluster D: anti-bot, CAPTCHA, obfuscation, human-vs-bot =======================
+
+@inproceedings{boucher2022badcharacters,
+  title     = {Bad Characters: Imperceptible {NLP} Attacks},
+  author    = {Boucher, Nicholas and Shumailov, Ilia and Anderson, Ross and Papernot, Nicolas},
+  booktitle = {43rd IEEE Symposium on Security and Privacy (S\&P)},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2106.09898}
+}
+
+@misc{rust2022pixel,
+  title         = {Language Modelling with Pixels},
+  author        = {Rust, Phillip and Lotz, Jonas F. and Bugliarello, Emanuele and Salesky, Elizabeth and de Lhoneux, Miryam and Elliott, Desmond},
+  year          = {2022},
+  eprint        = {2207.06991},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2207.06991}
+}
+
+@inproceedings{salesky2021robust,
+  title     = {Robust Open-Vocabulary Translation from Visual Text Representations},
+  author    = {Salesky, Elizabeth and Etter, David and Post, Matt},
+  booktitle = {Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.08211}
+}
+
+@misc{thomas2025webgames,
+  title         = {{WebGames}: Challenging General-Purpose Web-Browsing {AI} Agents},
+  author        = {Thomas, George and Chan, Alex J. and Kang, Jikun and Wu, Wenqi and Christianos, Filippos and Greenlee, Fraser and Toulis, Andy and Purtorab, Marvin},
+  year          = {2025},
+  eprint        = {2502.18356},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2502.18356}
+}
+
+@misc{luo2025opencaptchaworld,
+  title         = {Open {CaptchaWorld}: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal {LLM} Agents},
+  author        = {Luo, Yaxin and Li, Zhaoyi and Liu, Jiacheng and Cui, Jiacheng and Zhao, Xiaohan and Shen, Zhiqiang},
+  year          = {2025},
+  eprint        = {2505.24878},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2505.24878}
+}
+
+@inproceedings{ding2025illusioncaptcha,
+  title     = {{IllusionCAPTCHA}: A {CAPTCHA} based on Visual Illusion},
+  author    = {Ding, Ziqi and Deng, Gelei and Liu, Yi and Ding, Junchen and Chen, Jieshan and Sui, Yulei and Li, Yuekang},
+  booktitle = {Proceedings of the ACM Web Conference 2025 (WWW)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2502.05461}
+}
+
+@misc{venugopalan2024fpinconsistent,
+  title         = {{FP-Inconsistent}: Measurement and Analysis of Fingerprint Inconsistencies in Evasive Bot Traffic},
+  author        = {Venugopalan, Hari and Munir, Shaoor and Ahmed, Shuaib and Wang, Tangbaihe and King, Samuel T. and Shafiq, Zubair},
+  year          = {2024},
+  eprint        = {2406.07647},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2406.07647}
+}
+
+% ======================= Cluster E: small open VLMs and OCR-free document understanding =======================
+
+@misc{bai2025qwen25vl,
+  title         = {{Qwen2.5-VL} Technical Report},
+  author        = {Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and others},
+  year          = {2025},
+  eprint        = {2502.13923},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2502.13923}
+}
+
+@misc{bai2025qwen3vl,
+  title         = {{Qwen3-VL} Technical Report},
+  author        = {Bai, Shuai and Cai, Yuxuan and Chen, Ruizhe and Chen, Keqin and Chen, Xionghui and Cheng, Zesen and Deng, Lianghao and Ding, Wei and others},
+  year          = {2025},
+  eprint        = {2511.21631},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2511.21631}
+}
+
+@misc{gemmateam2025gemma3,
+  title         = {{Gemma 3} Technical Report},
+  author        = {{Gemma Team}},
+  year          = {2025},
+  eprint        = {2503.19786},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2503.19786}
+}
+
+@misc{nvidia2025nemotronvl,
+  title         = {{NVIDIA Nemotron Nano V2 VL}},
+  author        = {{NVIDIA} and Deshmukh, Amala Sanjay and Chumachenko, Kateryna and Rintamaki, Tuomas and Le, Matthieu and Poon, Tyler and Taheri, Danial Mohseni and others},
+  year          = {2025},
+  eprint        = {2511.03929},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2511.03929}
+}
+
+@inproceedings{kim2022donut,
+  title     = {{OCR}-free Document Understanding Transformer},
+  author    = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam, Jeongyeon and Park, Jinyoung and Yim, Jinyeong and Hwang, Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2111.15664}
+}
+
+@misc{liu2023ocrbench,
+  title         = {{OCRBench}: On the Hidden Mystery of {OCR} in Large Multimodal Models},
+  author        = {Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xucheng and Liu, Cheng-lin and Jin, Lianwen and Bai, Xiang},
+  year          = {2023},
+  eprint        = {2305.07895},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.1007/s11432-024-4235-6},
+  url           = {https://arxiv.org/abs/2305.07895}
+}

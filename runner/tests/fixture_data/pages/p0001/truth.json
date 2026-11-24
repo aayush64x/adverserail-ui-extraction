@@ -1,0 +1,68 @@
+{
+  "page_id": "p0001",
+  "seed": 0,
+  "posts": [
+    {
+      "post_id": "p0001_1",
+      "author_display": "Mara Lind",
+      "author_handle": "@maralind@fosstodon.org",
+      "display_time": "3h",
+      "text": "Finally got my sourdough starter to double in 6 hours! #baking",
+      "visible_text": "Finally got my sourdough starter to double in 6 hours! #baking",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 12,
+        "favourites": 31
+      },
+      "truncated": false
+    },
+    {
+      "post_id": "p0001_2",
+      "author_display": "Theo K",
+      "author_handle": "@theok@mastodon.social",
+      "display_time": "5h",
+      "text": "Wrote up how we cut our CI time in half.",
+      "visible_text": "Wrote up how we cut our CI time in half.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://example.org/a/123",
+        "title": "Halving CI time",
+        "domain": "example.org"
+      },
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 40,
+        "favourites": 88
+      },
+      "truncated": false
+    },
+    {
+      "post_id": "p0001_3",
+      "author_display": "Ana P",
+      "author_handle": "@anap@hachyderm.io",
+      "display_time": "1d",
+      "text": "This chart says it all.",
+      "visible_text": "This chart says it all.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/p0001_3.png",
+        "alt": "bar chart",
+        "embedded_text": "Uptime 99.2%"
+      },
+      "counts": {
+        "replies": 0,
+        "boosts": 3,
+        "favourites": 1200
+      },
+      "truncated": false
+    }
+  ]
+}

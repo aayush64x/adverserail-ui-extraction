@@ -1,0 +1,86 @@
+{
+  "page_id": "p0002",
+  "seed": 0,
+  "posts": [
+    {
+      "post_id": "p0002_1",
+      "author_display": "Jo",
+      "author_handle": "@jo@tech.lgbt",
+      "display_time": "12m",
+      "text": "Long thread about keyboards. Part one covers switches and why tactile ones are my favourite for typing all day.",
+      "visible_text": "Long thread about keyboards. Part one covers switches and why tactile ones are",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 7,
+        "boosts": 1,
+        "favourites": 9
+      },
+      "truncated": true
+    },
+    {
+      "post_id": "p0002_2",
+      "author_display": "Sam R",
+      "author_handle": "@samr@fosstodon.org",
+      "display_time": "2h",
+      "text": "Meeting notes are up @jo@tech.lgbt 🎉",
+      "visible_text": "Meeting notes are up @jo@tech.lgbt 🎉",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 5
+      },
+      "truncated": false
+    },
+    {
+      "post_id": "p0002_3",
+      "author_display": "Lee",
+      "author_handle": "@lee@mstdn.party",
+      "display_time": "4h",
+      "text": "Meme of the day",
+      "visible_text": "Meme of the day",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/p0002_3.png",
+        "alt": "",
+        "embedded_text": "WORKS ON MY MACHINE"
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 22,
+        "favourites": 140
+      },
+      "truncated": false
+    },
+    {
+      "post_id": "p0002_4",
+      "author_display": "Rin",
+      "author_handle": "@rin@social.coop",
+      "display_time": "6h",
+      "text": "Read this before you migrate.",
+      "visible_text": "Read this before you migrate.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://blog.example.net/migrate",
+        "title": "Migration guide",
+        "domain": "blog.example.net"
+      },
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 5,
+        "favourites": 17
+      },
+      "truncated": false
+    }
+  ]
+}

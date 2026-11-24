@@ -1,0 +1,17 @@
+# Generated data and results (regenerate with the seeds in README.md)
+data/
+data_test/
+results/
+analysis/
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# LaTeX build output
+paper/*.aux
+paper/*.out
+paper/*.log
+paper/*.pdf

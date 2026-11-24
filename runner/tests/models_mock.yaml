@@ -1,0 +1,10 @@
+# FAKE models for pipeline testing only (use with --provider mock)
+models:
+  - id: mock-oracle-vision
+    vision: true
+    price_in_per_m: 0.0
+    price_out_per_m: 0.0
+  - id: mock-oracle-text
+    vision: false
+    price_in_per_m: 0.0
+    price_out_per_m: 0.0

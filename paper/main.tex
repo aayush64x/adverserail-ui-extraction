@@ -1,0 +1,509 @@
+% =====================================================================
+% Replace preamble with official FLAIRS-40 template (Author Kit) before submission.
+% (Author Template.zip is linked from the FLAIRS-40 EasyChair CFP page.)
+% This preamble only APPROXIMATES the AAAI-style two-column layout that
+% FLAIRS has used historically (letter paper, 10pt Times, two columns,
+% author-year citations). Page count here is only an estimate.
+% Limits (FLAIRS-40 CFP): full paper <= 6 pages excluding references;
+% double-blind, so keep authors/affiliations/self-identifying links out.
+% Build:  pdflatex main && bibtex main && pdflatex main && pdflatex main
+% =====================================================================
+\documentclass[letterpaper,10pt,twocolumn]{article}
+\usepackage[letterpaper,left=0.75in,right=0.75in,top=0.75in,bottom=1in,columnsep=0.33in]{geometry}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+% ---- placeholder macros (search for "TODO" before submission) ----
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO:} #1\textbf{]}}}
+\newcommand{\figplaceholder}[2]{%
+  \fbox{\parbox[c][#2][c]{0.94\linewidth}{\centering\small
+  \textcolor{red}{\textbf{FIGURE PLACEHOLDER}}\\[2pt] #1}}}
+\newcommand{\cell}{\textcolor{red}{--}}
+
+\title{Do Screenshots Survive the Adversary? Vision vs.\ Text-Only Models\\
+for Social-Media Extraction Under Bot-Hostile UI Changes}
+\author{Anonymous Submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+% =====================================================================
+\begin{abstract}
+A website can defend against automated collection with interface
+changes that people do not notice but that break scrapers: randomized class
+names, shuffled DOM order, hidden decoy text, look-alike Unicode characters,
+and text drawn on a canvas. We ask whether small open-weight vision-language
+models that read a screenshot extract information more reliably under such
+changes than the same models reading the page as HTML or as plain text. We
+build a seeded generator of synthetic Mastodon-style timelines with exact
+ground truth and ten perturbations that each keep every scored field readable
+to a person. We evaluate open models sized to fit a single 24\,GB consumer GPU
+in three input conditions (screenshot, cleaned HTML, inner text), alongside a
+fixed CSS-selector scraper. The perturbations are page transforms written for
+our replica's markup; porting them to live Mastodon is future work. We report a
+score that multiplies accuracy on the fields present in the ground truth by
+post-level precision, together with post-level F1, a false-fill rate, and
+per-attack robustness drops with bootstrap confidence intervals.
+\todo{One or two sentences of headline results after real runs: mean drop for
+vision vs.\ text, which attacks hurt which channel.}
+\end{abstract}
+
+% =====================================================================
+\section{Introduction}
+
+A site may want to stop automated collection of its content. Besides
+network-level bot detection \citep{venugopalan2024fpinconsistent}, it can
+change its interface so that a human sees the same page but a program does not:
+class names can be randomized on every load, elements can be shuffled in the
+DOM and put back in visual order with CSS, invisible decoy text can be injected,
+letters can be swapped for look-alike Unicode characters
+\citep{boucher2022badcharacters}, or text can be drawn as pixels. Such changes
+cost the site little and break the CSS selectors that classic scrapers rely on.
+They also target the text views that LLM-based extractors read
+\citep{huang2024autoscraper,kim2025nexteval}.
+
+A model that reads the rendered screenshot sees what a person sees, so it
+should be unaffected by many DOM-level tricks. Prior work shows that screenshot
+input can match or beat HTML input for web agents on clean pages
+\citep{zheng2024seeact,he2024webvoyager,hong2023cogagent} and for reading web
+content \citep{wang2026pixelrag}. However, vision models have their own
+weaknesses: pop-ups, distractions and text placed inside images mislead them
+\citep{zhang2024popups,ma2024caution,cheng2024typographic}. It is not known how
+the two input channels compare when the page is made hostile on purpose,
+especially for small open models that can run locally on one consumer GPU.
+
+We study the question: \emph{when a site changes its UI in ways that are easy
+for humans but hard for bots, do small vision-language models reading
+screenshots extract information more reliably than the same or similar models
+reading the page as text?} We test three hypotheses. \textbf{H1}: text-input
+accuracy drops sharply under the DOM-level attacks P1--P6 (class obfuscation,
+DOM shuffle, hidden decoys, homoglyphs, canvas text, split spans).
+\textbf{H2}: screenshot-input accuracy is stable under P1--P6 but drops under
+the visual attacks P7--P9 (restyling, visual noise, overlays). \textbf{H3}:
+averaged over all attacks, screenshot input loses less accuracy than text
+input; we test H3 both with all attacks and without P5, which removes post
+text from the text views by design (\S\ref{sec:setup}). Either outcome is
+informative.
+
+Our contributions are:
+\begin{itemize}\itemsep0pt
+  \item A seeded generator of synthetic Mastodon-style timeline pages with exact
+        ground truth, covering plain posts, images with embedded text, link
+        cards, truncated posts, content warnings, boosts, and hashtags,
+        mentions and emoji.
+  \item Ten human-easy perturbations implemented as CSS/JS/DOM transforms of
+        our replica's rendered page; porting them to live Mastodon (a React
+        app) is future work.
+  \item A within-model comparison of screenshot, cleaned-HTML and inner-text
+        input for open-weight models that fit one 24\,GB GPU, plus a
+        text-only model and a CSS-selector scraper baseline.
+  \item A per-attack, per-field robustness matrix with bootstrap confidence
+        intervals. \todo{One-line summary of the main finding.}
+\end{itemize}
+Code and data generator will be released upon acceptance.
+
+% =====================================================================
+\section{Related Work}
+
+\paragraph{Screenshot-based web and GUI agents.}
+SeeAct \citep{zheng2024seeact} and WebVoyager \citep{he2024webvoyager} show
+that screenshot input helps web agents over text-only versions, and CogAgent
+\citep{hong2023cogagent} reaches strong results from screenshots alone with an
+18B model. VisualWebArena \citep{koh2024visualwebarena} and VisualWebBench
+\citep{liu2024visualwebbench} frame the text-only vs.\ multimodal comparison;
+the latter notes that open models are weak on dense, text-heavy pages.
+PixelRAG \citep{wang2026pixelrag} finds that feeding page screenshots to a VLM
+beats parsed text even for text-heavy QA. Pix2Struct
+\citep{lee2023pix2struct}, SeeClick \citep{cheng2024seeclick}, UI-TARS
+\citep{qin2025uitars} and OmniParser \citep{lu2024omniparser} develop
+screenshot-to-structure and grounding models. Benchmarks such as Mind2Web
+\citep{deng2023mind2web} and WebArena \citep{zhou2023webarena} use HTML-based
+pipelines on clean pages.
+
+\paragraph{HTML and text-based extraction.}
+MarkupLM \citep{li2022markuplm} and \citet{gur2023html} show that models can use
+markup structure, and HtmlRAG \citep{tan2024htmlrag} argues that cleaned HTML
+beats plain text. AutoScraper \citep{huang2024autoscraper} uses LLMs to write
+scrapers from the HTML hierarchy. NEXT-EVAL \citep{kim2025nexteval} shows that
+the input format alone changes extraction F1 and hallucination a lot, which
+suggests that text pipelines are sensitive to how the DOM is presented.
+
+\paragraph{Attacks on web agents.}
+Hidden or blended page content can steer agents
+\citep{greshake2023indirect,liao2024eia}, and hidden HTML changes the summaries
+of small open text models while the page looks unchanged
+\citep{verma2025htmlinjection}. On the vision side, adversarial pop-ups
+\citep{zhang2024popups}, benign distractions \citep{ma2024caution}, typographic
+text in images \citep{cheng2024typographic} and visual prompt injection
+\citep{cao2026vpibench} all mislead VLM agents. \citet{wu2025dissecting} attack
+image, caption and text components separately; dark-pattern studies vary visual
+design and HTML and find that agents are often more susceptible than humans
+\citep{ersoy2026darkpatterns,cuvin2025decepticon}. These works measure
+\emph{actions}, not field-level extraction.
+
+\paragraph{Human-easy, bot-hard changes.}
+Invisible characters and homoglyphs break text models without changing how text
+looks \citep{boucher2022badcharacters}, while models that read rendered text are
+more robust to such noise \citep{salesky2021robust,rust2022pixel}. WebGames
+\citep{thomas2025webgames}, Open CaptchaWorld \citep{luo2025opencaptchaworld}
+and IllusionCAPTCHA \citep{ding2025illusioncaptcha} quantify tasks that are
+easy for people and hard for agents.
+
+\paragraph{Open VLMs and OCR-free reading.}
+OCR-free document models \citep{kim2022donut} and open VLM families such as
+Qwen2.5-VL, Qwen3-VL, Gemma~3 and Nemotron VL
+\citep{bai2025qwen25vl,bai2025qwen3vl,gemmateam2025gemma3,nvidia2025nemotronvl}
+make local screenshot reading practical, though OCRBench
+\citep{liu2023ocrbench} shows uneven reading of non-semantic strings such as
+handles and numbers.
+
+\paragraph{Gap.}
+We found no work that compares screenshot and text input on \emph{information
+extraction} under \emph{controlled, human-invisible} UI changes, broken down per
+attack, for \emph{small open models} that fit one consumer GPU, on
+\emph{social-media timelines} with authors, text, links, image text and
+engagement counts.
+
+% =====================================================================
+\section{Threat Model and Perturbations}
+
+The adversary is the site operator. It wants to stop automated extraction of
+timeline content while keeping the page usable for people, and it controls the
+HTML, CSS and JavaScript it serves. It does not know which extractor is used.
+The constraint is that every scored field must remain readable from the
+rendered page by a person. The extractor sees one rendered page in one of
+three views (\S\ref{sec:setup}) and does not interact with it.
+
+Table~\ref{tab:perts} lists the ten perturbations. All are applied to the
+rendered page as CSS/JS injection or HTML rewrites, each with a severity
+parameter (severity~1 in this study). Where the human-easy property is
+checkable, the capture step asserts it (e.g., P9 overlay placement).
+\todo{Confirm capture.py asserts the new P9 no-cover rule.}
+\todo{State how human-readability was checked beyond automatic assertions,
+e.g., authors inspected N screenshots per perturbation.}
+
+\begin{table*}[t]
+\centering\small
+\caption{Perturbations. ``Aimed at'' is the input channel each change is
+designed to hurt. All keep every scored field readable on screen.}
+\label{tab:perts}
+\begin{tabular}{@{}llp{6.1cm}lp{5.0cm}@{}}
+\toprule
+ID & Name & How it is applied & Aimed at & Why a human is unaffected \\
+\midrule
+P0 & none & unmodified page & -- & -- \\
+P1 & class\_obfuscation & randomize all class/id names; styles kept & selector scrapers & styling identical, so the page looks the same \\
+P2 & dom\_shuffle & shuffle post order and field order in the DOM; restore visual order with flexbox \texttt{order} only & text & visual order is restored \\
+P3 & hidden\_decoys & inject fake handles, text and counts that are invisible (0px font, off-screen, background-colored, \texttt{aria-hidden}) & text & decoys are not rendered visibly \\
+P4 & homoglyph\_zw & replace Latin letters with look-alike Unicode; insert zero-width characters & text & glyphs look the same; zero-width characters are invisible \\
+P5 & canvas\_text & replace only the post body with a \texttt{<canvas>} drawing of it (wrapping keeps hashtags/mentions whole); handles, counts, link card and image alt stay in the DOM & text & the same text is visible as pixels \\
+P6 & split\_spans & split words into per-character spans placed out of order; re-order visually with CSS & text & characters appear in the correct order \\
+P7 & restyle & new theme; at severity~1 the page stays single-column with the nav moved left, card-style posts, and counters moved to the top of each post & vision & all fields still shown; only the look changes \\
+P8 & visual\_noise & low-contrast patterned background plus slight blur/noise layer & vision & text stays legible \\
+P9 & overlay & semi-transparent banner/cookie pop-up placed over margins, media edges or whitespace & vision & never covers post body text, handles, times, counters or words in images \\
+P10 & combo & P2 + P3 + P4 + P8 together & both & union of the above guarantees \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% =====================================================================
+\section{Experimental Setup}\label{sec:setup}
+
+\paragraph{Environment and data.}
+A seeded generator produces Mastodon-look-alike timeline pages from a Jinja2
+template; each page holds 3--5 posts drawn from seven kinds: plain text, image
+with embedded text (meme, screenshot, or chart with a number), link card,
+truncated ``Read more'' post, content warning, boost of another account, and
+posts with hashtags, mentions and emoji. Each page has a ground-truth file with
+the author handle, the text exactly as visible on screen, the link URL, the
+words drawn inside the image, and the reply, boost and favourite counts.
+Playwright renders each (page, perturbation) pair and captures the three views.
+We use 40 pages $\times$ 11 perturbation settings (P0--P10) $=$ 440 renders per
+input condition (generator seed 2027); a separate 10-page development set
+(seed 7) was used only to build and test the pipeline. Everything is seeded and
+deterministic.
+
+\paragraph{Why synthetic.}
+Synthetic pages give exact ground truth for every field, full control over
+content mix and perturbation, and repeatable runs, and they involve no real
+users' posts. The perturbations are page transforms written for our replica's
+markup; porting them to live Mastodon, a React app with different markup, is
+future work.
+
+\paragraph{Input conditions.}
+\textbf{vision}: a full-page screenshot (viewport width 1000\,px, page height
+fits all posts), downscaled so the long side is at most 1600\,px; taller pages
+(e.g., some P7 layouts) are therefore slightly downscaled.
+\textbf{text\_html}: cleaned HTML of the timeline, with \texttt{<script>},
+\texttt{<style>}, SVG paths and comments removed, attributes such as
+\texttt{alt}, \texttt{aria-*}, \texttt{class} and \texttt{href} kept,
+whitespace collapsed, and truncation at 64k characters.
+\textbf{text\_inner}: \texttt{document.body.innerText}, i.e., what a simple text
+scraper receives, with the same 64k cap. \todo{Report how many text inputs hit
+the 64k cap, per perturbation (decoys add characters).}
+
+\paragraph{Text views are deliberately naive.}
+The text views are what a generic LLM scraper would get, with no
+site-specific cleaning. Because \textit{text\_html} drops \texttt{<style>},
+CSS-based reordering (P2, P3, P6) cannot be undone from it. Attribute channels
+(\texttt{href}, \texttt{alt}) are left intact, as on real Mastodon, so profile
+and link \texttt{href}s keep clean handles and URLs under P4, P6 and P10, and
+image \texttt{alt} text gives text models some of the words in images. We
+therefore report handle accuracy separately for \textit{text\_html} and
+\textit{text\_inner}. P5 removes the post body from both text views entirely,
+so its text-side drop measures missing information, not fragility.
+
+\paragraph{Models.}
+We use open-weight models whose weights fit a single 24\,GB RTX 3090 at
+4--5-bit quantization, but we run them through hosted OpenRouter endpoints,
+not locally: Qwen3.8-27B, Qwen3.6-35B-A3B, Gemma~4 31B, Nemotron~3 Nano Omni
+30B-A3B, UI-TARS-1.5-7B \citep{qin2025uitars}, and Gemma~3 12B
+\citep{gemmateam2025gemma3} as an older baseline.\footnote{OpenRouter ids:
+\texttt{qwen/qwen3.8-27b}, \texttt{qwen/qwen3.6-35b-a3b},
+\texttt{google/gemma-4-31b-it},
+\texttt{nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free},
+\texttt{bytedance/ui-tars-1.5-7b}, \texttt{google/gemma-3-12b-it}. For the
+Nemotron endpoint reasoning may be mandatory; the runner records each call in
+which reasoning could not be disabled.} All six
+accept images and run in all three conditions, so the vision--text comparison
+is within the same model. A text-only model
+\todo{Nemotron 3.5 Lightning or gpt-oss-20b} runs \textit{text\_html} and
+\textit{text\_inner}. All calls use temperature 0 and a 1200-token output cap,
+with reasoning disabled for every model except where the endpoint does not
+allow it (see footnote); for those, hidden reasoning is excluded from the
+answer and the output cap is raised to 6000 tokens so reasoning cannot
+consume the budget.
+\todo{Final model list after advisor review; cite model cards if bib entries
+are approved.}
+
+\paragraph{Prompt.}
+All conditions share one instruction (prompt version v1.0): extract every post
+a person would see, top to bottom, as JSON with \texttt{author\_handle},
+\texttt{text} (visible part only for truncated posts), \texttt{link\_url},
+\texttt{image\_text}, and integer \texttt{replies}, \texttt{boosts},
+\texttt{favourites}, reporting only what a human sees. Only a one-sentence note
+on how the page is given differs between conditions. JSON is parsed robustly
+(code fences stripped, first balanced object taken). Unparseable output, empty
+output and API errors are all scored as an empty prediction (score 0), and we
+report how many of each occurred per model and condition.
+
+\paragraph{Selector-scraper baseline.}
+A non-LLM scraper parses the captured DOM with fixed CSS selectors written for
+the P0 template. It represents classic scrapers and is expected to fail under
+class renaming and DOM changes.
+
+\paragraph{Metrics.}
+Predicted posts are aligned to ground-truth posts by Hungarian matching on the
+similarity $0.4\,s_{\text{handle}}+0.6\,s_{\text{text}}$; an aligned pair
+counts as a match only if $s_{\text{handle}}\geq0.8$ or
+$s_{\text{text}}\geq0.6$. Per field: \texttt{author\_handle},
+\texttt{link\_url} and counts are scored by exact match after normalization
+(lowercase, strip, NFKC, zero-width removal); \texttt{text} and
+\texttt{image\_text} by character-level similarity (normalized edit-distance
+ratio), and we also report exact match for \texttt{text}. Normalization does
+not map homoglyphs back to Latin letters, so a copied homoglyph counts as an
+error, as it would for a downstream user. A missed post scores 0 on all fields.
+\emph{Present-field accuracy} averages, per true post, over the fields present
+in the ground truth: handle, text and the three counts always, and
+\texttt{link\_url} and \texttt{image\_text} only when the truth has them. The
+headline \emph{score} is present-field accuracy multiplied by post-level
+precision, so hallucinated posts are penalized. We also report the older
+\emph{field accuracy} (mean over all seven fields, with a null predicted for a
+null truth counted correct), post-level F1, and a \emph{false-fill rate} (how
+often a model fills \texttt{link\_url} or \texttt{image\_text} when the truth is
+null). Post order is not scored; Kendall's $\tau$ between predicted and true
+order is reported only as a diagnostic. \emph{Robustness drop} for
+perturbation $k$ is $\text{score}(P_k)-\text{score}(P_0)$ per model and
+condition; \emph{mean drop} averages over P1--P10. 95\% confidence intervals
+come from 1000 bootstrap resamples over pages. For H3 we use a paired bootstrap
+over pages (1000 resamples) of the difference (vision drop $-$ text drop) per
+model, with all attacks and again excluding P5.
+
+% =====================================================================
+\section{Results}
+
+\todo{This whole section is a placeholder. No results exist yet. Fill only from
+\texttt{analysis/summary.csv} / \texttt{summary.md}.}
+
+\begin{table*}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\caption{Score (\%; present-field accuracy $\times$ post precision) per
+perturbation and mean drop (P1--P10 vs.\ P0,
+percentage points, 95\% bootstrap CI). \todo{Fill from analysis/summary.csv.}}
+\label{tab:results}
+\begin{tabular}{@{}llccccccccccc c@{}}
+\toprule
+Model & Condition & P0 & P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 & P9 & P10 & Mean drop \\
+\midrule
+\multirow{3}{*}{Qwen3.8-27B}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{3}{*}{Qwen3.6-35B-A3B}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{3}{*}{Gemma 4 31B}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{3}{*}{Nemotron 3 Nano Omni}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{3}{*}{UI-TARS-1.5-7B}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{3}{*}{Gemma 3 12B}
+ & vision      & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+\multirow{2}{*}{\todo{text-only model}}
+ & text\_html  & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+ & text\_inner & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\midrule
+Selector scraper & DOM & \cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell&\cell\\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Overall robustness.}
+Table~\ref{tab:results} and Figure~\ref{fig:lines} give the score by
+perturbation for each model and condition.
+\todo{Clean (P0) score per condition; mean drop vision vs.\ text\_html vs.\
+text\_inner, with CIs; H3 paired-bootstrap result with all attacks and without
+P5; counts of API errors / empty outputs.}
+
+\begin{figure}[t]
+\centering
+\figplaceholder{Chart (1) from \texttt{score.py}: score (y) by
+perturbation P0--P10 (x), one line per condition (vision, text\_html,
+text\_inner), averaged over models; shaded 95\% CIs.}{4.2cm}
+\caption{Accuracy by perturbation, vision vs.\ text.
+\todo{Insert \texttt{analysis/} chart (1).}}
+\label{fig:lines}
+\end{figure}
+
+\paragraph{Which attacks hurt which channel.}
+Figure~\ref{fig:heatmap} shows the drop for every model, condition and attack.
+\todo{H1: drops of text conditions under P1--P6. H2: drops of vision under
+P1--P6 vs.\ P7--P9. P10 (combined). Note any attack that hurt both channels.
+Interpret P5 text drops as missing information, not fragility.}
+
+\begin{figure}[t]
+\centering
+\figplaceholder{Chart (2) from \texttt{score.py}: heatmap of robustness drop
+(score($P_k$) $-$ score(P0)), rows = model $\times$ condition, columns =
+P1--P10.}{4.6cm}
+\caption{Robustness drop per model, condition and perturbation.
+\todo{Insert \texttt{analysis/} chart (2).}}
+\label{fig:heatmap}
+\end{figure}
+
+\paragraph{Per-field breakdown.}
+\todo{From chart (3): which fields fail per condition (e.g., handles and counts
+vs.\ text vs.\ image\_text); handle accuracy for text\_html vs.\ text\_inner
+(href channel); text exact-match vs.\ similarity; post-level F1, false-fill
+rate, old 7-field accuracy, and hallucinated posts, especially under P3.}
+
+\begin{figure}[t]
+\centering
+\figplaceholder{Chart (3) from \texttt{score.py}: per-field accuracy bars
+(author\_handle, text, link\_url, image\_text, replies, boosts, favourites),
+grouped by condition.}{4.0cm}
+\caption{Per-field accuracy by input condition.
+\todo{Insert \texttt{analysis/} chart (3).}}
+\label{fig:fields}
+\end{figure}
+
+\paragraph{Selector-scraper baseline and cost.}
+\todo{Baseline accuracy at P0 and under P1--P10. Total API cost, tokens and
+median latency per condition.}
+
+% =====================================================================
+\section{Discussion}
+
+\todo{Keep ONE of the two variants below, delete the other, and rewrite it to
+match the actual numbers. Do not keep claims the results do not support.}
+
+\paragraph{Variant A (if vision is more robust).}
+If screenshot input loses clearly less accuracy than text input, the main
+reason is likely that most low-cost anti-scraping changes act on the DOM, which
+the screenshot does not expose. For site operators, this would mean that
+DOM-level obfuscation offers little protection against a reader of rendered
+pages, and that defenses would need to move to the visual layer, at a cost to
+human users. For extractors, it would support screenshot-first pipelines with
+models that fit one consumer GPU. Any remaining vision drops under P7--P9 would
+indicate where visual defenses could still work.
+
+\paragraph{Variant B (if vision is not more robust).}
+If screenshot input is not more robust overall, the advantage of avoiding
+DOM-level attacks is offset by weaker reading of dense pages, small text and
+numbers, or by sensitivity to restyling, noise and overlays. In that case the
+cheapest visual changes would protect a site as well as DOM changes, and text
+pipelines with input cleaning (e.g., removing hidden elements and normalizing
+Unicode) may be the more practical option. Hybrid pipelines that combine both
+views would be a natural next step, keeping in mind that attacks can cross
+modalities \citep{wu2025dissecting}.
+
+% =====================================================================
+\section{Limitations and Ethics}
+
+\paragraph{Limitations.}
+Pages are synthetic and use a replica of the Mastodon interface, not real
+Mastodon pages; content, layout variety and page length may differ from real
+timelines. Each perturbation is tested at a single severity. Models are called
+through hosted endpoints, whose quantization and serving may differ from a
+local 4-bit deployment on one GPU. Results depend on one prompt and on our
+choices of screenshot resolution and text truncation. The text views are
+deliberately naive; site-aware cleaning (e.g., applying CSS order, dropping
+hidden elements) could recover some attacks. Reasoning-capable models may
+behave differently with reasoning enabled, and Nemotron may run with it on.
+The perturbations target our replica's markup and have not been ported to
+live Mastodon. Forty pages give limited
+statistical power for small differences; the bootstrap CIs make this visible.
+
+\paragraph{Ethics and dual use.}
+The findings inform both sides: they show scraper builders which views are
+robust, and show site operators which defenses work and what they cost human
+users, including users of screen readers, which some DOM-level changes (e.g.,
+canvas text, homoglyphs) can harm. No real user data is collected; all posts,
+names and handles are generated. Any follow-up on real Mastodon will use a
+self-hosted instance with synthetic accounts.
+
+% =====================================================================
+\section{Conclusion}
+
+We presented a controlled comparison of screenshot, HTML and plain-text input
+for extracting social-media posts under ten human-easy, bot-hostile interface
+changes, using open models that fit one consumer GPU. \todo{Two sentences
+summarizing the actual findings for H1--H3.} Future work will port the
+perturbations to a self-hosted Mastodon instance (a React app), vary severity,
+and test
+hybrid and vision-to-structure pipelines \citep{lu2024omniparser}.
+
+\bibliographystyle{plainnat}
+\bibliography{../lit/references}
+
+\end{document}
