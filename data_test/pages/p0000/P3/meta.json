@@ -1,0 +1,41 @@
+{
+  "page_id": "p0000",
+  "perturbation": "P3",
+  "perturbation_name": "hidden_decoys",
+  "aimed_at": "text",
+  "severity": 1,
+  "rng_seed": "2027|p0000|P3|1",
+  "params": {
+    "decoys": {
+      "handle": 5,
+      "body": 5,
+      "count": 15,
+      "post": 2
+    }
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1510
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1510
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 32769,
+    "dom_html_cleaned": 22698,
+    "dom_html": 22698,
+    "dom_html_truncated": false,
+    "inner_txt": 1695
+  },
+  "n_posts": 5,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

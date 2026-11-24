@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Home - Mastodon</title>
+<style id="b6til6">
+:root{--bg:#191b22;--col:#282c37;--col2:#313543;--border:#393f4f;--text:#ffffff;--text2:#d9e1e8;--muted:#9baec8;--action:#8d93ab;--accent:#8c8dff;--brand:#6364ff}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:Inter,Roboto,"DejaVu Sans","Liberation Sans",Arial,"Noto Color Emoji",sans-serif;font-size:15px;line-height:20px;-webkit-font-smoothing:antialiased;position:relative;min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{font:inherit;background:none;border:0;color:inherit;padding:0;cursor:pointer}
+.vjtuwe{display:flex;justify-content:center;padding:10px 0 40px}
+.hockh7{display:flex;justify-content:center;gap:10px;width:100%}
+.lj5ifl{width:600px;flex:0 0 600px}
+.edlfp9{width:285px;flex:0 0 285px}
+.bsthkf{background:var(--col);border:1px solid var(--border);border-radius:4px;overflow:hidden}
+.gnwzj8{display:flex;align-items:center;justify-content:space-between;margin:0;font-size:16px;font-weight:600;padding:0 6px 0 15px;height:52px;border-bottom:1px solid var(--border)}
+.mb5czb{display:flex;align-items:center;gap:8px;font-weight:600;font-size:16px}
+.mb5czb .wqg3n0{width:22px;height:22px}
+.zygcsd{color:var(--muted);padding:12px}
+.r0skgi{display:flex;flex-direction:column}
+.rdqqzj{border-bottom:1px solid var(--border)}
+.z4tr4g{display:flex;flex-direction:column;padding:16px 16px 10px;position:relative}
+.vssplc{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:14px;margin:-4px 0 10px 30px}
+.vssplc .wqg3n0{width:16px;height:16px;color:var(--muted)}
+.vssplc strong{color:var(--muted);font-weight:500}
+.vssplc .c24hm5{display:inline}
+.ouu82s{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;font-size:15px}
+.c24hm5{display:flex;align-items:center;gap:10px;min-width:0}
+.teikv1{width:46px;height:46px;border-radius:50%;overflow:hidden;flex:0 0 46px}
+.teikv1 img{width:46px;height:46px;display:block}
+.kf9017{display:flex;flex-direction:column;line-height:20px;min-width:0}
+.kf9017 bdi{display:block}
+.bxrv0m{font-weight:600;color:var(--text)}
+.veozt5{display:block;color:var(--muted);font-size:14px}
+.uea7of{display:flex;align-items:center;gap:4px;color:var(--muted);font-size:14px;white-space:nowrap}
+.p3nheg .wqg3n0{width:15px;height:15px}
+.u5zqh8{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 10px;padding:8px 10px;background:var(--col2);border-radius:4px;color:var(--text2)}
+.td4z4c{font-weight:500}
+.hiovsc{background:#606984;color:#282c37;border-radius:2px;font-size:11px;font-weight:600;line-height:18px;padding:0 6px;text-transform:uppercase}
+.bn70tv{color:var(--text);font-size:15px;line-height:22px;word-wrap:break-word}
+.bn70tv p{margin:0}
+.bn70tv a{color:var(--accent)}
+.bn70tv a:hover{text-decoration:underline}
+.k8x0by{display:flex;align-items:center;gap:2px;color:var(--accent);font-size:15px;margin-top:8px;align-self:flex-start}
+.k8x0by .wqg3n0{width:16px;height:16px}
+.u9pkf8{display:flex;margin-top:12px;border:1px solid var(--border);border-radius:8px;overflow:hidden;color:var(--muted);background:var(--col)}
+.sbv0nu{flex:0 0 110px;width:110px;height:110px;background:#333}
+.sbv0nu img{width:110px;height:110px;object-fit:cover;display:block}
+.clzye9{display:flex;flex-direction:column;gap:3px;padding:12px 14px;min-width:0;justify-content:center}
+.epf1xq{font-size:13px;color:var(--muted)}
+.ab8iee{color:var(--text);font-weight:600;font-size:15px;line-height:20px}
+.ttu5h1{font-size:14px;color:var(--muted);line-height:19px}
+.media-gallery{margin-top:12px;border-radius:8px;overflow:hidden;position:relative;aspect-ratio:16/9;width:100%}
+.media-gallery__item{position:relative;width:100%;height:100%}
+.media-gallery__item-thumbnail img{width:100%;height:100%;object-fit:cover;display:block}
+.media-gallery__item__badges{position:absolute;left:8px;bottom:8px;display:flex;gap:4px}
+.media-gallery__alt__label{background:rgba(0,0,0,.65);color:#fff;font-size:11px;font-weight:700;line-height:18px;padding:0 5px;border-radius:4px}
+.h7ojna{display:flex;align-items:center;gap:6px;margin-top:12px;color:var(--action)}
+.ec27p8{display:flex;align-items:center;gap:5px;color:var(--action);font-size:14px;font-weight:500;padding:4px 6px;min-width:64px}
+.ec27p8 .wqg3n0{width:18px;height:18px}
+.cdkb06{flex:1 1 auto}
+.iaecws,.cum1n7{min-width:0}
+.ek0qpi{display:flex;flex-direction:column;gap:2px;position:sticky;top:10px}
+.t9ut06{display:flex;align-items:center;gap:8px;font-size:24px;font-weight:700;color:var(--text);padding:6px 10px 16px}
+.t9ut06 .mgcecl{width:30px;height:30px;border-radius:8px;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px}
+.b7l3y5{width:100%;background:var(--col2);border:0;border-radius:4px;color:var(--text2);font-size:15px;padding:10px 12px;margin-bottom:10px}
+.ocdda5{display:flex;align-items:center;gap:12px;padding:12px 10px;font-size:16px;color:var(--text2);border-radius:4px}
+.ocdda5 .wqg3n0{width:22px;height:22px}
+.w32n09{color:var(--accent);font-weight:600}
+.i5bhuw{margin-top:12px;background:var(--brand);color:#fff;border-radius:4px;padding:10px;text-align:center;font-weight:600}
+.ek0qpi hr{border:0;border-top:1px solid var(--border);margin:8px 0;width:100%}
+</style>
+</head>
+<body class="xpg4nc in3c1d fk2kgy">
+<div class="a9ccng" data-props='{"locale":"en"}' id="gff0xa">
+<div class="vjtuwe">
+<div class="hockh7">
+<div class="lj5ifl">
+<div aria-label="Home" class="bsthkf" role="region">
+<div class="k8ql5e">
+<h1 class="gnwzj8"><button class="mb5czb" type="button"><svg aria-hidden="true" class="wqg3n0 vwa3rl" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Z"></path></svg>Home</button><div class="fbwtld"><button aria-label="Show settings" class="zygcsd" type="button"><svg aria-hidden="true" class="wqg3n0 marbjq" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M440-120v-240h80v80h320v80H520v80h-80Zm-320-80v-80h240v80H120Zm160-160v-80H120v-80h160v-80h80v240h-80Zm160-80v-80h400v80H440Zm160-160v-240h80v80h160v80H680v80h-80Zm-480-80v-80h400v80H120Z"></path></svg></button></div></h1>
+</div>
+<div class="t0rit5" role="feed">
+<div class="r0skgi">
+<article class="rdqqzj" data-id="431953007945319461">
+<div class="z4tr4g wqy1p8" data-id="431953007945319461">
+<div class="ouu82s">
+<a class="c24hm5" href="https://aus.social/@jonasvolkov"><div class="tafxde"><div class="teikv1"><img alt="" src="../img/796a9f7492.png"/></div></div><span class="kf9017"><bdi><strong class="bxrv0m">Jonas Volkov 🚲</strong></bdi><span class="veozt5">@jonasvolkov@aus.social</span></span></a>
+<a class="uea7of" href="https://aus.social/@jonasvolkov/431953007945319461"><span class="p3nheg"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg></span><time>44m</time></a>
+</div>
+<div class="bn70tv i8ed97" lang="en"><div class="gesfpo uepr3n u6a4wb"><p>This explains it well: <a href="https://lowtech.press/2026/3822" rel="nofollow noopener" target="_blank">https://lowtech.press/2026/3822</a> The cat next door learned to open our gate. We are negotiating. Small win: fixed a bug that has been haunting me for 96 weeks.</p></div></div>
+<a class="u9pkf8" href="https://lowtech.press/2026/3822" rel="noopener" target="_blank"><div class="sbv0nu"><img alt="" src="../img/f1ffbfb6c2.png"/></div><div class="clzye9"><span class="epf1xq"><span lang="en">lowtech.press</span></span><strong class="ab8iee">A practical guide to ramen at home</strong><span class="ttu5h1">Short read, about five minutes.</span></div></a>
+<div class="h7ojna">
+<button aria-label="Reply" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 n93wa4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">43</span></span></button>
+<button aria-label="Boost" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">3</span></span></button>
+<button aria-label="Favorite" class="ec27p8 rp3w2m tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span class="p0z89k"><span class="jfcdsu">3</span></span></button>
+<button aria-label="Bookmark" class="ec27p8 cum1n7 deyuej tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg></button>
+<div class="cdkb06"></div>
+<button aria-label="More" class="ec27p8 iaecws tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 ba8e7f" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"></path></svg></button>
+</div>
+</div>
+</article>
+<article class="rdqqzj" data-id="393267989202630153">
+<div class="z4tr4g wqy1p8" data-id="393267989202630153">
+<div class="ouu82s">
+<a class="c24hm5" href="https://mastodon.social/@jonasreads"><div class="tafxde"><div class="teikv1"><img alt="" src="../img/8aa7d20634.png"/></div></div><span class="kf9017"><bdi><strong class="bxrv0m">Jonas Abbott 🌱</strong></bdi><span class="veozt5">@jonasreads@mastodon.social</span></span></a>
+<a class="uea7of" href="https://mastodon.social/@jonasreads/393267989202630153"><span class="p3nheg"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg></span><time>4h</time></a>
+</div>
+<p class="u5zqh8"><span class="td4z4c">politics</span><button class="hiovsc" type="button">Show less</button></p>
+<div class="bn70tv i8ed97" lang="en"><div class="gesfpo uepr3n u6a4wb"><p>Thinking about how much I enjoy slow mornings with tacos and no notifications.</p></div></div>
+<div class="h7ojna">
+<button aria-label="Reply" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 n93wa4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">10</span></span></button>
+<button aria-label="Boost" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">4</span></span></button>
+<button aria-label="Favorite" class="ec27p8 rp3w2m tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span class="p0z89k"><span class="jfcdsu">3</span></span></button>
+<button aria-label="Bookmark" class="ec27p8 cum1n7 deyuej tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg></button>
+<div class="cdkb06"></div>
+<button aria-label="More" class="ec27p8 iaecws tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 ba8e7f" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"></path></svg></button>
+</div>
+</div>
+</article>
+<article class="rdqqzj" data-id="696426751568041141">
+<div class="z4tr4g wqy1p8" data-id="696426751568041141">
+<div class="ouu82s">
+<a class="c24hm5" href="https://infosec.exchange/@gretadiallo"><div class="tafxde"><div class="teikv1"><img alt="" src="../img/a4be14c592.png"/></div></div><span class="kf9017"><bdi><strong class="bxrv0m">Greta Diallo 🚲</strong></bdi><span class="veozt5">@gretadiallo@infosec.exchange</span></span></a>
+<a class="uea7of" href="https://infosec.exchange/@gretadiallo/696426751568041141"><span class="p3nheg"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg></span><time>5h</time></a>
+</div>
+<div class="bn70tv i8ed97" lang="en"><div class="gesfpo uepr3n u6a4wb"><p>Sketched the farmers market during lunch, still learning how to draw bicycles. Our neighbourhood mesh network now has 40 nodes running. 🚲 <a class="j0x2uv qwqbcz" href="https://infosec.exchange/tags/homelab" rel="tag">#<span>HomeLab</span></a> <a class="j0x2uv qwqbcz" href="https://infosec.exchange/tags/photography" rel="tag">#<span>Photography</span></a></p></div></div>
+<div class="h7ojna">
+<button aria-label="Reply" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 n93wa4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">2</span></span></button>
+<button aria-label="Boost" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">6</span></span></button>
+<button aria-label="Favorite" class="ec27p8 rp3w2m tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span class="p0z89k"><span class="jfcdsu">3</span></span></button>
+<button aria-label="Bookmark" class="ec27p8 cum1n7 deyuej tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg></button>
+<div class="cdkb06"></div>
+<button aria-label="More" class="ec27p8 iaecws tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 ba8e7f" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"></path></svg></button>
+</div>
+</div>
+</article>
+<article class="rdqqzj" data-id="848447636808157329">
+<div class="z4tr4g wqy1p8 nz2zud" data-id="848447636808157329">
+<div class="vssplc"><div class="tl9zff"><svg aria-hidden="true" class="wqg3n0 v16o1h mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg></div><span><a class="c24hm5 s1aedn" href="#"><bdi><strong>Dmitri ☕</strong></bdi></a> boosted</span></div>
+<div class="ouu82s">
+<a class="c24hm5" href="https://mathstodon.xyz/@ryilmaz_ok"><div class="tafxde"><div class="teikv1"><img alt="" src="../img/ff09d53b18.png"/></div></div><span class="kf9017"><bdi><strong class="bxrv0m">Rosa Yilmaz</strong></bdi><span class="veozt5">@ryilmaz_ok@mathstodon.xyz</span></span></a>
+<a class="uea7of" href="https://mathstodon.xyz/@ryilmaz_ok/848447636808157329"><span class="p3nheg"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg></span><time>7h</time></a>
+</div>
+<div class="bn70tv i8ed97" lang="en"><div class="gesfpo uepr3n u6a4wb"><p><span class="wb2m1f"><a class="hc58wx j0x2uv" href="https://mathstodon.xyz/@sakuraiyer">@<span>sakuraiyer</span></a></span> Is it just me or did Linux get noticeably faster in the last release? Measured 90 mm of rain overnight, the garden is very happy. Third attempt at jollof rice today and it actually worked. The rain finally stopped and the whole street smells like wet</p></div></div>
+<button class="k8x0by" type="button">Read more<svg aria-hidden="true" class="wqg3n0 kl46rz" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"></path></svg></button>
+<div class="h7ojna">
+<button aria-label="Reply" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 n93wa4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">0</span></span></button>
+<button aria-label="Boost" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">147</span></span></button>
+<button aria-label="Favorite" class="ec27p8 rp3w2m tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span class="p0z89k"><span class="jfcdsu">2</span></span></button>
+<button aria-label="Bookmark" class="ec27p8 cum1n7 deyuej tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg></button>
+<div class="cdkb06"></div>
+<button aria-label="More" class="ec27p8 iaecws tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 ba8e7f" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"></path></svg></button>
+</div>
+</div>
+</article>
+<article class="rdqqzj" data-id="866209237809635865">
+<div class="z4tr4g wqy1p8" data-id="866209237809635865">
+<div class="ouu82s">
+<a class="c24hm5" href="https://hachyderm.io/@elifcodes"><div class="tafxde"><div class="teikv1"><img alt="" src="../img/0f196c33d3.png"/></div></div><span class="kf9017"><bdi><strong class="bxrv0m">Elif</strong></bdi><span class="veozt5">@elifcodes@hachyderm.io</span></span></a>
+<a class="uea7of" href="https://hachyderm.io/@elifcodes/866209237809635865"><span class="p3nheg"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg></span><time>7h</time></a>
+</div>
+<div class="bn70tv i8ed97" lang="en"><div class="gesfpo uepr3n u6a4wb"><p>Accidentally made enough focaccia for 60 people. Neighbours are getting some. Packing list for the weekend trip is 51 items long and somehow still missing socks. 🌧 <a class="j0x2uv qwqbcz" href="https://hachyderm.io/tags/cycling" rel="tag">#<span>Cycling</span></a> <a class="j0x2uv qwqbcz" href="https://hachyderm.io/tags/rust" rel="tag">#<span>Rust</span></a> <a class="j0x2uv qwqbcz" href="https://hachyderm.io/tags/homelab" rel="tag">#<span>HomeLab</span></a></p></div></div>
+<div class="h7ojna">
+<button aria-label="Reply" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 n93wa4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">0</span></span></button>
+<button aria-label="Boost" class="ec27p8 tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 mni7gi" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"></path></svg><span class="p0z89k"><span class="jfcdsu">9</span></span></button>
+<button aria-label="Favorite" class="ec27p8 rp3w2m tvw9fn rr2itn" type="button"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span class="p0z89k"><span class="jfcdsu">4</span></span></button>
+<button aria-label="Bookmark" class="ec27p8 cum1n7 deyuej tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg></button>
+<div class="cdkb06"></div>
+<button aria-label="More" class="ec27p8 iaecws tvw9fn" type="button"><svg aria-hidden="true" class="wqg3n0 ba8e7f" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"></path></svg></button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+<div class="mjdndg edlfp9">
+<div class="ek0qpi">
+<div class="t9ut06"><span class="mgcecl">m</span><span>mastodon</span></div>
+<input aria-label="Search" class="b7l3y5" placeholder="Search or paste URL" type="text"/>
+<a class="ocdda5 r528zp w32n09" href="#"><svg aria-hidden="true" class="wqg3n0 vwa3rl" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Z"></path></svg><span>Home</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 obpp2o" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m300-300 280-80 80-280-280 80-80 280Zm180-120q-25 0-42.5-17.5T420-480q0-25 17.5-42.5T480-540q25 0 42.5 17.5T540-480q0 25-17.5 42.5T480-420Zm0 340q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"></path></svg><span>Explore</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 va8001" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-40-82v-78q-33 0-56.5-23.5T360-320v-40L168-552q-3 18-5.5 36t-2.5 36q0 121 79.5 212T440-162Zm276-102q41-45 62.5-100.5T800-480q0-98-54.5-179T600-776v16q0 33-23.5 56.5T520-680h-80v80q0 17-11.5 28.5T400-560h-80v80h240q17 0 28.5 11.5T600-440v120h40q26 0 47 15.5t29 40.5Z"></path></svg><span>Live feeds</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 tc79e4" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160ZM480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80Z"></path></svg><span>Notifications</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 hlpo1v" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280 320-200v-80L480-520 160-720v80l320 200Z"></path></svg><span>Private mentions</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 xsd7oc" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"></path></svg><span>Bookmarks</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 dp15er" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-595l288-25 112-265 112 265 288 25-218 194 65 281-247-149-247 149Zm247-350Z"></path></svg><span>Favorites</span></a>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 gpradl" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="M280-600v-80h560v80H280Zm0 160v-80h560v80H280Zm0 160v-80h560v80H280ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z"></path></svg><span>Lists</span></a>
+<hr/>
+<a class="ocdda5 r528zp" href="#"><svg aria-hidden="true" class="wqg3n0 kgk35e" fill="currentColor" height="18" viewbox="0 -960 960 960" width="18"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm112-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z"></path></svg><span>Preferences</span></a>
+<a class="i5bhuw" href="#">New post</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

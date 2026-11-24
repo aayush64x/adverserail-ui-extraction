@@ -1,0 +1,38 @@
+{
+  "page_id": "p0026",
+  "perturbation": "P7",
+  "perturbation_name": "restyle",
+  "aimed_at": "vision",
+  "severity": 1,
+  "rng_seed": "2027|p0026|P7|1",
+  "params": {
+    "theme": "light-serif",
+    "grid": false,
+    "action_bars_moved": 4
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1309
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1309
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 23396,
+    "dom_html_cleaned": 14902,
+    "dom_html": 14902,
+    "dom_html_truncated": false,
+    "inner_txt": 908
+  },
+  "n_posts": 4,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

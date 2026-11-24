@@ -36,6 +36,6 @@ python runner/score.py --data data_test/ --results results/ --out analysis/ --ex
 - Nemotron Omni uses a `:free` endpoint: free models have daily request caps, so expect rate-limit
   errors on its 1,320 calls. The runner retries; if it still fails, re-run the same command the next day
   (finished calls are skipped). Errors left at the end are scored as empty answers (0) and counted.
-- Data is not committed (`data/` and `data_test/` are in `.gitignore`). Rebuild it from the seeds:
+- The datasets are committed (`data/` = 10 dev pages, `data_test/` = 40 test pages). To rebuild them from the seeds instead:
   `python env/generate.py --n-pages 40 --seed 2027 --out data_test/` then `python env/capture.py --data data_test/`.
   The posts, handles, visible text, counts and image text regenerate identically. Only the pixel coordinates of text inside images (`text_boxes`) can differ, depending on the Pillow version.

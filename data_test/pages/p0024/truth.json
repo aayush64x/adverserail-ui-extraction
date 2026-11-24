@@ -1,0 +1,110 @@
+{
+  "page_id": "p0024",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0024_0",
+      "status_id": "401536399648866823",
+      "author_display": "Zoe Dubois 📷",
+      "author_handle": "@zdubois99@hachyderm.io",
+      "display_time": "30m",
+      "text": "Volunteering at the riverside path this Friday, come say hi if you are around.",
+      "visible_text": "Volunteering at the riverside path this Friday, come say hi if you are around.",
+      "content_warning": null,
+      "boosted_by": "Owen 📷",
+      "link": null,
+      "image": {
+        "file": "img/33264849a1.png",
+        "alt": "",
+        "embedded_text": "31 new members this week",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.9,
+            0.1578
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 14,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "boost"
+      ],
+      "avatar": "img/f68c8026bb.png"
+    },
+    {
+      "post_id": "p0024_1",
+      "status_id": "122415800292403870",
+      "author_display": "Kai 📷",
+      "author_handle": "@kai_carter_dev@photog.social",
+      "display_time": "5h",
+      "text": "Third attempt at pierogi today and it actually worked.",
+      "visible_text": "Third attempt at pierogi today and it actually worked.",
+      "content_warning": null,
+      "boosted_by": "Tomás Santos",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 40,
+        "boosts": 3,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "boost"
+      ],
+      "avatar": "img/33812d8086.png"
+    },
+    {
+      "post_id": "p0024_2",
+      "status_id": "873680824780054843",
+      "author_display": "Sam Yilmaz",
+      "author_handle": "@samyilmazhq@mastodon.social",
+      "display_time": "8h",
+      "text": "Took 73 photos at the bike co-op and exactly one of them is in focus. Accidentally made enough lentil stew for 30 people. Neighbours are getting some. 🚲 #Gardening",
+      "visible_text": "Took 73 photos at the bike co-op and exactly one of them is in focus. Accidentally made enough lentil stew for 30 people. Neighbours are getting some. 🚲 #Gardening",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/3bc996c850.png",
+        "alt": "",
+        "embedded_text": "THE CAT AT 5AM ME: REWRITES IT IN RUST",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.1725,
+            0.0556,
+            0.8263,
+            0.1689
+          ],
+          [
+            0.0413,
+            0.8333,
+            0.9575,
+            0.9356
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/d95670f567.png"
+    }
+  ]
+}

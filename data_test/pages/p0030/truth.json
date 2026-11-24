@@ -1,0 +1,96 @@
+{
+  "page_id": "p0030",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0030_0",
+      "status_id": "709392595247818391",
+      "author_display": "Linnea Nielsen",
+      "author_handle": "@linnea_nielsen_pdx@scholar.social",
+      "display_time": "1d",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. Thinking about how much I enjoy slow mornings with miso soup and no notifications.",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. Thinking about how much I enjoy slow mornings with miso soup and no notifications.",
+      "content_warning": null,
+      "boosted_by": "Sakura Kowalski",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 1,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "boost"
+      ],
+      "avatar": "img/ab4fc7cf61.png"
+    },
+    {
+      "post_id": "p0030_1",
+      "status_id": "335020281895519214",
+      "author_display": "Ines Adeyemi",
+      "author_handle": "@ines_pdx@aus.social",
+      "display_time": "1d",
+      "text": "If anyone has a good sourdough recipe that does not need a stand mixer, please share.",
+      "visible_text": "If anyone has a good sourdough recipe that does not need a stand mixer, please share.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/726bfcdc3f.png",
+        "alt": "",
+        "embedded_text": "WHEN THE BUILD PASSES ON THE FIRST TRY",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.0475,
+            0.0644,
+            0.9537,
+            0.1667
+          ],
+          [
+            0.135,
+            0.8244,
+            0.8662,
+            0.9378
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 4,
+        "boosts": 174,
+        "favourites": 136
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/f1f6d30ad2.png"
+    },
+    {
+      "post_id": "p0030_2",
+      "status_id": "115516707366677042",
+      "author_display": "Greta",
+      "author_handle": "@ghaddad99@aus.social",
+      "display_time": "1d",
+      "text": "Measured 66 mm of rain overnight, the garden is very happy. Reminder that the bike repair cafe is open every Friday at my balcony.",
+      "visible_text": "Measured 66 mm of rain overnight, the garden is very happy. Reminder that the bike repair cafe is open every Friday at my balcony.",
+      "content_warning": null,
+      "boosted_by": "Kwame Banda",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "boost"
+      ],
+      "avatar": "img/a66fa997af.png"
+    }
+  ]
+}

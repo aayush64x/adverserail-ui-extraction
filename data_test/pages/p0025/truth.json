@@ -1,0 +1,83 @@
+{
+  "page_id": "p0025",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0025_0",
+      "status_id": "472572436959006361",
+      "author_display": "Hana Diallo",
+      "author_handle": "@hanadiallo42@ruby.social",
+      "display_time": "1h",
+      "text": "This explains it well: https://dailybyte.news/2026/8691 My rabbit has decided the keyboard is the warmest spot in the house.",
+      "visible_text": "This explains it well: https://dailybyte.news/2026/8691 My rabbit has decided the keyboard is the warmest spot in the house.",
+      "content_warning": null,
+      "boosted_by": "Tomás Volkov",
+      "link": {
+        "url": "https://dailybyte.news/2026/8691",
+        "title": "Inside the volunteer-run the lake",
+        "domain": "dailybyte.news",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/67814ffc7b.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 22,
+        "boosts": 2,
+        "favourites": 116
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "boost"
+      ],
+      "avatar": "img/278cdf8a9f.png"
+    },
+    {
+      "post_id": "p0025_1",
+      "status_id": "254312832268678991",
+      "author_display": "Elif Lind",
+      "author_handle": "@elind_eu@scholar.social",
+      "display_time": "1h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. Measured 56 mm of rain overnight, the garden is very happy. Third attempt at sourdough today and it actually worked. Small win: fixed a bug that has been haunting me for 14 weeks. Hot take: Rust error messages are better than most documentation. Took 63 photos at the riverside path and exactly one of them is in focus. Our tiny team shipped release 8.4 after 45 days of testing. Accidentally made enough ramen for 73 people. Neighbours are getting some. cc @odubois99 🌱 #Books",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. Measured 56 mm of rain overnight, the garden is very happy. Third attempt at sourdough today and it actually worked. Small win: fixed a bug that has been",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 3
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich"
+      ],
+      "avatar": "img/8edfaf4bdc.png"
+    },
+    {
+      "post_id": "p0025_2",
+      "status_id": "793459626224134533",
+      "author_display": "Arjun Dubois",
+      "author_handle": "@arjundubois_ok@photog.social",
+      "display_time": "1h",
+      "text": "Sketched the city archive during lunch, still learning how to draw bicycles. Upgraded the home server to Elixir 4.4 without breaking anything, which feels suspicious.",
+      "visible_text": "Sketched the city archive during lunch, still learning how to draw bicycles. Upgraded the home server to Elixir 4.4 without breaking anything, which feels suspicious.",
+      "content_warning": "spoilers: A Psalm for the Wild-Built",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 6,
+        "boosts": 0,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/6f9104b221.png"
+    }
+  ]
+}

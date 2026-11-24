@@ -1,0 +1,108 @@
+{
+  "page_id": "p0027",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0027_0",
+      "status_id": "834033326045886821",
+      "author_display": "Tomás 🚲",
+      "author_handle": "@tomasiyer_pdx@mas.to",
+      "display_time": "16m",
+      "text": "Worth your time: https://kitchenlab.org/posts/6895",
+      "visible_text": "Worth your time: https://kitchenlab.org/posts/6895",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://kitchenlab.org/posts/6895",
+        "title": "The case for boring technology in 2025",
+        "domain": "kitchenlab.org",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/9190c7f0d4.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 42,
+        "boosts": 227,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/6a570d7cc6.png"
+    },
+    {
+      "post_id": "p0027_1",
+      "status_id": "776819360949910092",
+      "author_display": "Olu Brennan ☕",
+      "author_handle": "@olubrennan99@mastodon.art",
+      "display_time": "58m",
+      "text": "Small win: fixed a bug that has been haunting me for 90 weeks. If anyone has a good jollof rice recipe that does not need a stand mixer, please share. 😅 #HomeLab #Linux",
+      "visible_text": "Small win: fixed a bug that has been haunting me for 90 weeks. If anyone has a good jollof rice recipe that does not need a stand mixer, please share. 😅 #HomeLab #Linux",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/fcde0d1396.png",
+        "alt": "A bar chart with rising bars. The text says: 85 new members this week",
+        "embedded_text": "85 new members this week",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.9,
+            0.1578
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 0,
+        "boosts": 2,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/d3ab576cf2.png"
+    },
+    {
+      "post_id": "p0027_2",
+      "status_id": "464151844423559781",
+      "author_display": "Chloe 📷",
+      "author_handle": "@chloe_novak_ok@infosec.exchange",
+      "display_time": "1h",
+      "text": "Our neighbourhood mesh network now has 37 nodes running. Took 79 photos at the riverside path and exactly one of them is in focus.",
+      "visible_text": "Our neighbourhood mesh network now has 37 nodes running. Took 79 photos at the riverside path and exactly one of them is in focus.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/2b950317db.png",
+        "alt": "Screenshot of an app window. The text says: Build failed after 87 minutes",
+        "embedded_text": "Build failed after 87 minutes",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3156,
+            0.865,
+            0.3689
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 6,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/8b99a49d01.png"
+    }
+  ]
+}

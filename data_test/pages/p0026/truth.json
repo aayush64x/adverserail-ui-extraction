@@ -1,0 +1,112 @@
+{
+  "page_id": "p0026",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0026_0",
+      "status_id": "754505241486599248",
+      "author_display": "Aiko Eriksen",
+      "author_handle": "@aiko_eriksen42@social.coop",
+      "display_time": "34m",
+      "text": "Is it just me or did Neovim get noticeably faster in the last release? Hot take: Python error messages are better than most documentation.",
+      "visible_text": "Is it just me or did Neovim get noticeably faster in the last release? Hot take: Python error messages are better than most documentation.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/a97453a1a7.png",
+        "alt": "",
+        "embedded_text": "Rainfall: 52 mm in October",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.8812,
+            0.1578
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 17,
+        "boosts": 1,
+        "favourites": 770
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/189ec79abe.png"
+    },
+    {
+      "post_id": "p0026_1",
+      "status_id": "722482849284636906",
+      "author_display": "Rosa 🚲",
+      "author_handle": "@rosawrites@hachyderm.io",
+      "display_time": "2h",
+      "text": "Spent the whole morning at the coffee shop on 5th and saw 71 herons. Reminder that the bike repair cafe is open every Sunday at the farmers market. 📚 #Fediverse #Cooking #MastoArt",
+      "visible_text": "Spent the whole morning at the coffee shop on 5th and saw 71 herons. Reminder that the bike repair cafe is open every Sunday at the farmers market. 📚 #Fediverse #Cooking #MastoArt",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 3,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/141a997171.png"
+    },
+    {
+      "post_id": "p0026_2",
+      "status_id": "979465712341154568",
+      "author_display": "Sofia 📷",
+      "author_handle": "@sofiadiallobakes@mastodon.social",
+      "display_time": "3h",
+      "text": "Small win: fixed a bug that has been haunting me for 71 weeks. Today I learned that Rust has a built in profiler. Wish I knew that 11 months ago.",
+      "visible_text": "Small win: fixed a bug that has been haunting me for 71 weeks. Today I learned that Rust has a built in profiler. Wish I knew that 11 months ago.",
+      "content_warning": "food (meat)",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/a62a74169f.png"
+    },
+    {
+      "post_id": "p0026_3",
+      "status_id": "282236203729406802",
+      "author_display": "Bram Larsen ☕",
+      "author_handle": "@bram_larsen_art@fosstodon.org",
+      "display_time": "3h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. cc @mara ☕ #Gardening",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. cc @mara ☕ #Gardening",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 10,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/5cc155b5ec.png"
+    }
+  ]
+}

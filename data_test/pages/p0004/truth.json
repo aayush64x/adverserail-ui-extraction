@@ -1,0 +1,105 @@
+{
+  "page_id": "p0004",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0004_0",
+      "status_id": "117160049113309884",
+      "author_display": "Niko Mensah",
+      "author_handle": "@niko42@fosstodon.org",
+      "display_time": "4h",
+      "text": "Our neighbourhood mesh network now has 94 nodes running. Spent the whole morning at the bike co-op and saw 57 herons. Thinking about how much I enjoy slow mornings with lentil stew and no notifications. Our tiny team shipped release 2.17 after 24 days of testing. Reminder that the bike repair cafe is open every Monday at the makerspace. Sketched the riverside path during lunch, still learning how to draw bicycles.",
+      "visible_text": "Our neighbourhood mesh network now has 94 nodes running. Spent the whole morning at the bike co-op and saw 57 herons. Thinking about how much I enjoy slow mornings with lentil stew and no notifications. Our tiny team shipped",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 16,
+        "boosts": 1,
+        "favourites": 0
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/8ba043506c.png"
+    },
+    {
+      "post_id": "p0004_1",
+      "status_id": "343171148538393341",
+      "author_display": "Sakura Patel",
+      "author_handle": "@sakura_eu@toot.cafe",
+      "display_time": "4h",
+      "text": "Interesting study: https://dailybyte.news/blog/4579 Measured 45 mm of rain overnight, the garden is very happy.",
+      "visible_text": "Interesting study: https://dailybyte.news/blog/4579 Measured 45 mm of rain overnight, the garden is very happy.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://dailybyte.news/blog/4579",
+        "title": "Why city bike lanes keep getting wider",
+        "domain": "dailybyte.news",
+        "description": "An explainer with charts and sources.",
+        "thumb": "img/92d5a0b5ad.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 0,
+        "favourites": 133
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/5bd5d64b14.png"
+    },
+    {
+      "post_id": "p0004_2",
+      "status_id": "313166734622444666",
+      "author_display": "Sofia Diallo",
+      "author_handle": "@sofia_diallohq@chaos.social",
+      "display_time": "5h",
+      "text": "Third attempt at lentil stew today and it actually worked. 🐧 #Gardening",
+      "visible_text": "Third attempt at lentil stew today and it actually worked. 🐧 #Gardening",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 30,
+        "boosts": 0,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/21f77e6ecc.png"
+    },
+    {
+      "post_id": "p0004_3",
+      "status_id": "386687392621209011",
+      "author_display": "Hana ☕",
+      "author_handle": "@hana_dubois_art@chaos.social",
+      "display_time": "5h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. Finally finished repotting 97 tomato seedlings on the coffee shop on 5th. 🎨 #Fediverse #Baking #Cycling",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. Finally finished repotting 97 tomato seedlings on the coffee shop on 5th. 🎨 #Fediverse #Baking #Cycling",
+      "content_warning": "health, mild",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 5
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/61034ca650.png"
+    }
+  ]
+}

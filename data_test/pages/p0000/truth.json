@@ -1,0 +1,146 @@
+{
+  "page_id": "p0000",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0000_0",
+      "status_id": "268296251756116010",
+      "author_display": "Diego Chen",
+      "author_handle": "@dchen_n@chaos.social",
+      "display_time": "52m",
+      "text": "Good read: https://fieldnotes.blog/blog/7276 Our tiny team shipped release 1.0 after 86 days of testing. Accidentally made enough jollof rice for 14 people. Neighbours are getting some. cc @ovisser 😅 #MastoArt",
+      "visible_text": "Good read: https://fieldnotes.blog/blog/7276 Our tiny team shipped release 1.0 after 86 days of testing. Accidentally made enough jollof rice for 14 people. Neighbours are getting some. cc @ovisser 😅 #MastoArt",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://fieldnotes.blog/blog/7276",
+        "title": "Inside the volunteer-run the city archive",
+        "domain": "fieldnotes.blog",
+        "description": "An explainer with charts and sources.",
+        "thumb": "img/68cb3cfbfc.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 4,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/0491bfe54f.png"
+    },
+    {
+      "post_id": "p0000_1",
+      "status_id": "126116899446374195",
+      "author_display": "Noor Volkov",
+      "author_handle": "@noor_volkov_n@mastodon.scot",
+      "display_time": "1h",
+      "text": "@ovisser Is it just me or did Python get noticeably faster in the last release? Took 65 photos at the city archive and exactly one of them is in focus. 📚 #Weather #UrbanSketching",
+      "visible_text": "@ovisser Is it just me or did Python get noticeably faster in the last release? Took 65 photos at the city archive and exactly one of them is in focus. 📚 #Weather #UrbanSketching",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/32adfaed01.png",
+        "alt": "",
+        "embedded_text": "Error 404: try again later",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3111,
+            0.8912,
+            0.3933
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 2,
+        "boosts": 3,
+        "favourites": 5
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/b57f7b0141.png"
+    },
+    {
+      "post_id": "p0000_2",
+      "status_id": "655930064586342145",
+      "author_display": "Amara Larsen",
+      "author_handle": "@amaralarsen_pdx@scholar.social",
+      "display_time": "1h",
+      "text": "Started a reading log and I am already behind by 47 pages. cc @plind_photo 🌧 #Baking",
+      "visible_text": "Started a reading log and I am already behind by 47 pages. cc @plind_photo 🌧 #Baking",
+      "content_warning": "food (meat)",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 2,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/1d5fa1ad88.png"
+    },
+    {
+      "post_id": "p0000_3",
+      "status_id": "437691730883731816",
+      "author_display": "Ravi 🌱",
+      "author_handle": "@ravi_tanaka_dev@fosstodon.org",
+      "display_time": "2h",
+      "text": "@ovisser Reading Piranesi again and it hits differently this year. Spent the whole morning at our community garden and saw 69 herons. 🙌 #Birding",
+      "visible_text": "@ovisser Reading Piranesi again and it hits differently this year. Spent the whole morning at our community garden and saw 69 herons. 🙌 #Birding",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 7
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/5f4580117b.png"
+    },
+    {
+      "post_id": "p0000_4",
+      "status_id": "882209469486785779",
+      "author_display": "Ada",
+      "author_handle": "@amoretti_art@mathstodon.xyz",
+      "display_time": "4h",
+      "text": "Sketched the coffee shop on 5th during lunch, still learning how to draw bicycles. cc @plind_photo 🙌 #Rust #Gardening #OpenSource",
+      "visible_text": "Sketched the coffee shop on 5th during lunch, still learning how to draw bicycles. cc @plind_photo 🙌 #Rust #Gardening #OpenSource",
+      "content_warning": null,
+      "boosted_by": "Freya Nielsen",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 5,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/35ac04e22b.png"
+    }
+  ]
+}

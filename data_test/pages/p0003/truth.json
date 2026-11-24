@@ -1,0 +1,149 @@
+{
+  "page_id": "p0003",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0003_0",
+      "status_id": "888398187092293186",
+      "author_display": "Imani Kim",
+      "author_handle": "@imanikim@floss.social",
+      "display_time": "1d",
+      "text": "Interesting study: https://riverbend.news/notes/3082",
+      "visible_text": "Interesting study: https://riverbend.news/notes/3082",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://riverbend.news/notes/3082",
+        "title": "A practical guide to sourdough at home",
+        "domain": "riverbend.news",
+        "description": "Notes, numbers and a few surprises.",
+        "thumb": "img/e4ef07b265.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 1,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/8f3902bec5.png"
+    },
+    {
+      "post_id": "p0003_1",
+      "status_id": "700171984345850802",
+      "author_display": "Amara Okafor 📷",
+      "author_handle": "@amara@chaos.social",
+      "display_time": "1d",
+      "text": "Finally finished repotting 89 tomato seedlings on the riverside path. #Caturday #Books #Rust",
+      "visible_text": "Finally finished repotting 89 tomato seedlings on the riverside path. #Caturday #Books #Rust",
+      "content_warning": "politics",
+      "boosted_by": "Freya Eriksen ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 4,
+        "favourites": 771
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/8b60ebf1c6.png"
+    },
+    {
+      "post_id": "p0003_2",
+      "status_id": "997212958505578851",
+      "author_display": "Tariq Kim ☕",
+      "author_handle": "@tariq_kim_dev@mastodon.online",
+      "display_time": "1d",
+      "text": "My tortoise has decided the keyboard is the warmest spot in the house. Started a reading log and I am already behind by 86 pages.",
+      "visible_text": "My tortoise has decided the keyboard is the warmest spot in the house. Started a reading log and I am already behind by 86 pages.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 28,
+        "boosts": 3,
+        "favourites": 349
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/e2c05f65bf.png"
+    },
+    {
+      "post_id": "p0003_3",
+      "status_id": "998083431524958204",
+      "author_display": "Jonas Patel",
+      "author_handle": "@jonaspatel_eu@aus.social",
+      "display_time": "1d",
+      "text": "@adayilmaz99 Our neighbourhood mesh network now has 74 nodes running. 🍞 #Books",
+      "visible_text": "@adayilmaz99 Our neighbourhood mesh network now has 74 nodes running. 🍞 #Books",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/2a6118a8e3.png",
+        "alt": "",
+        "embedded_text": "ONE MORE BUG FIX SUSPICIOUS",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.1125,
+            0.0556,
+            0.8875,
+            0.1689
+          ],
+          [
+            0.255,
+            0.8244,
+            0.7438,
+            0.9378
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/a85fe0e29c.png"
+    },
+    {
+      "post_id": "p0003_4",
+      "status_id": "945869658214699254",
+      "author_display": "Sofia Novak",
+      "author_handle": "@sofianovakwrites@floss.social",
+      "display_time": "1d",
+      "text": "Reading A Psalm for the Wild-Built again and it hits differently this year. Our tiny team shipped release 2.3 after 75 days of testing.",
+      "visible_text": "Reading A Psalm for the Wild-Built again and it hits differently this year. Our tiny team shipped release 2.3 after 75 days of testing.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 2,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/772f2d7001.png"
+    }
+  ]
+}

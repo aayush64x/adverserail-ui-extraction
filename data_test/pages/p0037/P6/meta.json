@@ -1,0 +1,37 @@
+{
+  "page_id": "p0037",
+  "perturbation": "P6",
+  "perturbation_name": "split_spans",
+  "aimed_at": "text",
+  "severity": 1,
+  "rng_seed": "2027|p0037|P6|1",
+  "params": {
+    "split_words": 89,
+    "p_split": 1.0
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1109
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1109
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 36034,
+    "dom_html_cleaned": 28899,
+    "dom_html": 28899,
+    "dom_html_truncated": false,
+    "inner_txt": 1421
+  },
+  "n_posts": 3,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

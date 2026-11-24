@@ -1,0 +1,140 @@
+{
+  "page_id": "p0009",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0009_0",
+      "status_id": "930356425404045850",
+      "author_display": "Dmitri Rossi",
+      "author_handle": "@dmitri_art@scholar.social",
+      "display_time": "35m",
+      "text": "Started a reading log and I am already behind by 68 pages.",
+      "visible_text": "Started a reading log and I am already behind by 68 pages.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/ba3c115e1e.png",
+        "alt": "",
+        "embedded_text": "37 unread messages",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3022,
+            0.8888,
+            0.4022
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 1,
+        "boosts": 0,
+        "favourites": 85
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/6774a2bb83.png"
+    },
+    {
+      "post_id": "p0009_1",
+      "status_id": "144884366218441550",
+      "author_display": "Rosa Novak ☕",
+      "author_handle": "@rosa_art@techhub.social",
+      "display_time": "51m",
+      "text": "Wrote up my notes: https://fieldnotes.blog/notes/6744 Third attempt at lentil stew today and it actually worked.",
+      "visible_text": "Wrote up my notes: https://fieldnotes.blog/notes/6744 Third attempt at lentil stew today and it actually worked.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://fieldnotes.blog/notes/6744",
+        "title": "The case for boring technology in 2026",
+        "domain": "fieldnotes.blog",
+        "description": "Short read, about five minutes.",
+        "thumb": "img/9e7c456c3c.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/fa2f4f083d.png"
+    },
+    {
+      "post_id": "p0009_2",
+      "status_id": "113646326907750753",
+      "author_display": "Freya Kowalski",
+      "author_handle": "@freyareads@toot.cafe",
+      "display_time": "59m",
+      "text": "Finally finished repotting 21 tomato seedlings on the bike co-op. If anyone has a good ramen recipe that does not need a stand mixer, please share. Volunteering at the makerspace this Saturday, come say hi if you are around. Reading Project Hail Mary again and it hits differently this year. Our tiny team shipped release 8.3 after 69 days of testing. The crow next door learned to open our gate. We are negotiating. My rabbit has decided the keyboard is the warmest spot in the house. Today I learned that Go has a built in profiler. Wish I knew that 52 months ago.",
+      "visible_text": "Finally finished repotting 21 tomato seedlings on the bike co-op. If anyone has a good ramen recipe that does not need a stand mixer, please share. Volunteering at the makerspace this Saturday, come say hi if you are",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 78,
+        "favourites": 0
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/99bd94c468.png"
+    },
+    {
+      "post_id": "p0009_3",
+      "status_id": "754521974700274860",
+      "author_display": "Zoe 📷",
+      "author_handle": "@zsantos_art@ruby.social",
+      "display_time": "1h",
+      "text": "Thinking about how much I enjoy slow mornings with pierogi and no notifications. Our neighbourhood mesh network now has 26 nodes running.",
+      "visible_text": "Thinking about how much I enjoy slow mornings with pierogi and no notifications. Our neighbourhood mesh network now has 26 nodes running.",
+      "content_warning": "politics",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 11,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/23eafe5858.png"
+    },
+    {
+      "post_id": "p0009_4",
+      "status_id": "124121380246426602",
+      "author_display": "Luca",
+      "author_handle": "@lucacodes@infosec.exchange",
+      "display_time": "1h",
+      "text": "Spent the whole morning at the train station and saw 39 herons. Is it just me or did Debian get noticeably faster in the last release?",
+      "visible_text": "Spent the whole morning at the train station and saw 39 herons. Is it just me or did Debian get noticeably faster in the last release?",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 1,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/7dadd82660.png"
+    }
+  ]
+}

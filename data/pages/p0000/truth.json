@@ -1,0 +1,97 @@
+{
+  "page_id": "p0000",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0000_0",
+      "status_id": "758534759278791234",
+      "author_display": "Kai Brennan",
+      "author_handle": "@kai_brennan@aus.social",
+      "display_time": "5h",
+      "text": "@elif_rossiwrites Is it just me or did Inkscape get noticeably faster in the last release? 🚲 #ClimateAction #UrbanSketching #Caturday",
+      "visible_text": "@elif_rossiwrites Is it just me or did Inkscape get noticeably faster in the last release? 🚲 #ClimateAction #UrbanSketching #Caturday",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 3,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/2c7d0d6190.png"
+    },
+    {
+      "post_id": "p0000_1",
+      "status_id": "918899587959236322",
+      "author_display": "Sakura Visser",
+      "author_handle": "@svisserreads@infosec.exchange",
+      "display_time": "7h",
+      "text": "Volunteering at the coffee shop on 5th this Thursday, come say hi if you are around.",
+      "visible_text": "Volunteering at the coffee shop on 5th this Thursday, come say hi if you are around.",
+      "content_warning": null,
+      "boosted_by": "Linnea Weber",
+      "link": null,
+      "image": {
+        "file": "img/f62334683e.png",
+        "alt": "A cartoon face with meme captions. The text says: ONE MORE BUG FIX STILL FLAT",
+        "embedded_text": "ONE MORE BUG FIX STILL FLAT",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.1125,
+            0.0556,
+            0.8875,
+            0.1689
+          ],
+          [
+            0.2812,
+            0.8244,
+            0.7175,
+            0.9378
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 5
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "boost"
+      ],
+      "avatar": "img/df7c61f4a6.png"
+    },
+    {
+      "post_id": "p0000_2",
+      "status_id": "190197876590079874",
+      "author_display": "Ingrid Lind",
+      "author_handle": "@ingrid@photog.social",
+      "display_time": "22h",
+      "text": "Our tiny team shipped release 4.20 after 56 days of testing. 🍞 #HomeLab",
+      "visible_text": "Our tiny team shipped release 4.20 after 56 days of testing. 🍞 #HomeLab",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 7,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/bcca0a73e5.png"
+    }
+  ]
+}

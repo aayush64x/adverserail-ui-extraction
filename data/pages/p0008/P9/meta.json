@@ -1,0 +1,57 @@
+{
+  "page_id": "p0008",
+  "perturbation": "P9",
+  "perturbation_name": "overlay",
+  "aimed_at": "vision",
+  "severity": 1,
+  "rng_seed": "7|p0008|P9|1",
+  "params": {
+    "n_overlays": 1,
+    "overlays": [
+      {
+        "target": 1,
+        "rect": {
+          "x": 53,
+          "y": 490,
+          "w": 340,
+          "h": 128
+        },
+        "max_text_cover": 0.0,
+        "max_media_cover": 0.23,
+        "critical_px": 0.0
+      }
+    ],
+    "max_text_cover": 0.0,
+    "max_media_cover": 0.23,
+    "critical_px": 0.0,
+    "limit": 0.0
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 962
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 962
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 19747,
+    "dom_html_cleaned": 12526,
+    "dom_html": 12526,
+    "dom_html_truncated": false,
+    "inner_txt": 722
+  },
+  "n_posts": 3,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true,
+    "overlay_max_text_cover": 0.0,
+    "overlay_max_media_cover": 0.23,
+    "overlay_critical_px": 0.0
+  }
+}

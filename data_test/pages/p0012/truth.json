@@ -1,0 +1,125 @@
+{
+  "page_id": "p0012",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0012_0",
+      "status_id": "703186156187298060",
+      "author_display": "Kai Yilmaz",
+      "author_handle": "@kai_yilmaz@photog.social",
+      "display_time": "1d",
+      "text": "This explains it well: https://civicpost.net/blog/7083 @mara_kim_art The fox next door learned to open our gate. We are negotiating. Volunteering at the riverside path this Sunday, come say hi if you are around. 💡 #SelfHosting #Weather",
+      "visible_text": "This explains it well: https://civicpost.net/blog/7083 @mara_kim_art The fox next door learned to open our gate. We are negotiating. Volunteering at the riverside path this Sunday, come say hi if you are around. 💡 #SelfHosting #Weather",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://civicpost.net/blog/7083",
+        "title": "Inside the volunteer-run the train station",
+        "domain": "civicpost.net",
+        "description": "Short read, about five minutes.",
+        "thumb": "img/8cd9c78893.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 14,
+        "favourites": 285
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/347f4c64e5.png"
+    },
+    {
+      "post_id": "p0012_1",
+      "status_id": "158468432778843834",
+      "author_display": "Arjun Banda 🌱",
+      "author_handle": "@arjun_dev@ruby.social",
+      "display_time": "1d",
+      "text": "My rabbit has decided the keyboard is the warmest spot in the house. Is it just me or did Debian get noticeably faster in the last release? ☕ #Rust",
+      "visible_text": "My rabbit has decided the keyboard is the warmest spot in the house. Is it just me or did Debian get noticeably faster in the last release? ☕ #Rust",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/ce97b0379f.png",
+        "alt": "A cartoon face with meme captions. The text says: THE CAT AT 5AM FEED ME",
+        "embedded_text": "THE CAT AT 5AM FEED ME",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.1725,
+            0.0556,
+            0.8263,
+            0.1689
+          ],
+          [
+            0.3237,
+            0.8267,
+            0.6775,
+            0.9356
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 31,
+        "boosts": 4,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/01352459ad.png"
+    },
+    {
+      "post_id": "p0012_2",
+      "status_id": "706067292343844331",
+      "author_display": "Greta Moretti",
+      "author_handle": "@greta_moretticodes@mastodon.art",
+      "display_time": "2d",
+      "text": "Accidentally made enough jollof rice for 68 people. Neighbours are getting some. Reading A Psalm for the Wild-Built again and it hits differently this year.",
+      "visible_text": "Accidentally made enough jollof rice for 68 people. Neighbours are getting some. Reading A Psalm for the Wild-Built again and it hits differently this year.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 5,
+        "boosts": 2,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/ca839dfff0.png"
+    },
+    {
+      "post_id": "p0012_3",
+      "status_id": "500956368592243953",
+      "author_display": "Zoe Berg",
+      "author_handle": "@zoeberg@infosec.exchange",
+      "display_time": "2d",
+      "text": "Today I learned that Home Assistant has a built in profiler. Wish I knew that 96 months ago. Reminder that the bike repair cafe is open every Wednesday at the old library. Our neighbourhood mesh network now has 43 nodes running. Small win: fixed a bug that has been haunting me for 34 weeks. Our tiny team shipped release 8.13 after 47 days of testing. Packing list for the weekend trip is 18 items long and somehow still missing socks.",
+      "visible_text": "Today I learned that Home Assistant has a built in profiler. Wish I knew that 96 months ago. Reminder that the bike repair cafe is open every Wednesday at the old library. Our neighbourhood mesh network now has 43 nodes running. Small",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 4,
+        "favourites": 1
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/b51f3ca1dd.png"
+    }
+  ]
+}

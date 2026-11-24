@@ -1,0 +1,106 @@
+{
+  "page_id": "p0039",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0039_0",
+      "status_id": "149786291019882027",
+      "author_display": "Femi Abbott",
+      "author_handle": "@femiabbott@floss.social",
+      "display_time": "4h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement.",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/e08147bba7.png"
+    },
+    {
+      "post_id": "p0039_1",
+      "status_id": "974264325139614006",
+      "author_display": "Mei Moretti 📷",
+      "author_handle": "@meimoretti_ok@mastodon.online",
+      "display_time": "16h",
+      "text": "Finally finished repotting 52 tomato seedlings on the city archive. Our tiny team shipped release 3.19 after 42 days of testing. cc @gretamurphyreads #UrbanSketching #Books #Linux",
+      "visible_text": "Finally finished repotting 52 tomato seedlings on the city archive. Our tiny team shipped release 3.19 after 42 days of testing. cc @gretamurphyreads #UrbanSketching #Books #Linux",
+      "content_warning": null,
+      "boosted_by": "Mei Iyer 🌱",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 23,
+        "boosts": 1,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/e254f5ef8e.png"
+    },
+    {
+      "post_id": "p0039_2",
+      "status_id": "903820656703324131",
+      "author_display": "Sakura",
+      "author_handle": "@sakura_dev@sfba.social",
+      "display_time": "17h",
+      "text": "Upgraded the home server to SQLite 3.1 without breaking anything, which feels suspicious. Third attempt at pierogi today and it actually worked. My hedgehog has decided the keyboard is the warmest spot in the house. Started a reading log and I am already behind by 75 pages. Packing list for the weekend trip is 61 items long and somehow still missing socks. Volunteering at the coffee shop on 5th this Saturday, come say hi if you are around. Reading A Psalm for the Wild-Built again and it hits differently this year. The cat next door learned to open our gate. We are negotiating.",
+      "visible_text": "Upgraded the home server to SQLite 3.1 without breaking anything, which feels suspicious. Third attempt at pierogi today and it actually worked. My hedgehog has decided the keyboard is the warmest spot in the house. Started a reading",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 3,
+        "favourites": 1
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/09be38aa7f.png"
+    },
+    {
+      "post_id": "p0039_3",
+      "status_id": "531454914450815540",
+      "author_display": "Lena Weber 🌱",
+      "author_handle": "@lena_weber@mas.to",
+      "display_time": "18h",
+      "text": "Worth your time: https://transitwatch.org/blog/9841",
+      "visible_text": "Worth your time: https://transitwatch.org/blog/9841",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://transitwatch.org/blog/9841",
+        "title": "The case for boring technology in 2025",
+        "domain": "transitwatch.org",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/4fedb6f177.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 3,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/af209d4aff.png"
+    }
+  ]
+}

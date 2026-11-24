@@ -1,0 +1,143 @@
+{
+  "page_id": "p0009",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0009_0",
+      "status_id": "756858419732415350",
+      "author_display": "Kwame Nakamura 🌱",
+      "author_handle": "@kwamenakamura_eu@sfba.social",
+      "display_time": "29m",
+      "text": "Finally finished repotting 39 tomato seedlings on the coffee shop on 5th. Spent the whole morning at the city archive and saw 40 herons. Accidentally made enough dumplings for 36 people. Neighbours are getting some. Thinking about how much I enjoy slow mornings with pierogi and no notifications. Volunteering at the night market this Thursday, come say hi if you are around. Small win: fixed a bug that has been haunting me for 14 weeks. Our neighbourhood mesh network now has 76 nodes running.",
+      "visible_text": "Finally finished repotting 39 tomato seedlings on the coffee shop on 5th. Spent the whole morning at the city archive and saw 40 herons. Accidentally made enough dumplings for 36 people. Neighbours are getting some. Thinking about how",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 61,
+        "favourites": 1
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/99d0c1349f.png"
+    },
+    {
+      "post_id": "p0009_1",
+      "status_id": "987395310851750188",
+      "author_display": "Aiko Nakamura 🚲",
+      "author_handle": "@aiko_nakamura_ok@mathstodon.xyz",
+      "display_time": "56m",
+      "text": "Good read: https://kitchenlab.org/a/7120 Upgraded the home server to Go 9.3 without breaking anything, which feels suspicious.",
+      "visible_text": "Good read: https://kitchenlab.org/a/7120 Upgraded the home server to Go 9.3 without breaking anything, which feels suspicious.",
+      "content_warning": null,
+      "boosted_by": "Imani Dubois",
+      "link": {
+        "url": "https://kitchenlab.org/a/7120",
+        "title": "The case for boring technology in 2026",
+        "domain": "kitchenlab.org",
+        "description": "Short read, about five minutes.",
+        "thumb": "img/b7eba2e4e5.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 5,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "boost"
+      ],
+      "avatar": "img/6bd73a8b43.png"
+    },
+    {
+      "post_id": "p0009_2",
+      "status_id": "512689348656939584",
+      "author_display": "Sam",
+      "author_handle": "@seriksen@mastodon.social",
+      "display_time": "1h",
+      "text": "Hot take: Elixir error messages are better than most documentation.",
+      "visible_text": "Hot take: Elixir error messages are better than most documentation.",
+      "content_warning": "eye contact",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 2,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/031ad8507d.png"
+    },
+    {
+      "post_id": "p0009_3",
+      "status_id": "371091840312469142",
+      "author_display": "Freya Eriksen 📷",
+      "author_handle": "@freya_eriksenhq@infosec.exchange",
+      "display_time": "1h",
+      "text": "@ingrid_murphybakes If anyone has a good banana bread recipe that does not need a stand mixer, please share. 🐧 #Books #Birding #Baking",
+      "visible_text": "@ingrid_murphybakes If anyone has a good banana bread recipe that does not need a stand mixer, please share. 🐧 #Books #Birding #Baking",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 2,
+        "favourites": 305
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/7a5ab7d371.png"
+    },
+    {
+      "post_id": "p0009_4",
+      "status_id": "855586710290651400",
+      "author_display": "Diego Novak ☕",
+      "author_handle": "@diegonovakwrites@mastodon.art",
+      "display_time": "2h",
+      "text": "Reminder that the bike repair cafe is open every Friday at my balcony. Third attempt at focaccia today and it actually worked.",
+      "visible_text": "Reminder that the bike repair cafe is open every Friday at my balcony. Third attempt at focaccia today and it actually worked.",
+      "content_warning": null,
+      "boosted_by": "Amara Diallo",
+      "link": null,
+      "image": {
+        "file": "img/81f7e65d48.png",
+        "alt": "A bar chart with rising bars. The text says: Library visits up 29%",
+        "embedded_text": "Library visits up 29%",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.7037,
+            0.18
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 2,
+        "boosts": 7,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "boost"
+      ],
+      "avatar": "img/bdac1df55b.png"
+    }
+  ]
+}

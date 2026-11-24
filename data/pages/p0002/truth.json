@@ -1,0 +1,84 @@
+{
+  "page_id": "p0002",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0002_0",
+      "status_id": "399528270255864910",
+      "author_display": "Ingrid Chen",
+      "author_handle": "@ichenhq@toot.cafe",
+      "display_time": "10m",
+      "text": "Worth your time: https://civicpost.net/posts/456 Reading The Dispossessed again and it hits differently this year. cc @svolkov99 #MastoArt #Gardening #Rust",
+      "visible_text": "Worth your time: https://civicpost.net/posts/456 Reading The Dispossessed again and it hits differently this year. cc @svolkov99 #MastoArt #Gardening #Rust",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://civicpost.net/posts/456",
+        "title": "Why city bike lanes keep getting wider",
+        "domain": "civicpost.net",
+        "description": "An explainer with charts and sources.",
+        "thumb": "img/473075c494.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 3,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/49e195fd29.png"
+    },
+    {
+      "post_id": "p0002_1",
+      "status_id": "557791165079782624",
+      "author_display": "Ines Larsen 🚲",
+      "author_handle": "@ines@fosstodon.org",
+      "display_time": "4h",
+      "text": "@luca_ok Measured 76 mm of rain overnight, the garden is very happy. Is it just me or did Firefox get noticeably faster in the last release? #HomeLab",
+      "visible_text": "@luca_ok Measured 76 mm of rain overnight, the garden is very happy. Is it just me or did Firefox get noticeably faster in the last release? #HomeLab",
+      "content_warning": "politics",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 1,
+        "favourites": 296
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/39b4897ac3.png"
+    },
+    {
+      "post_id": "p0002_2",
+      "status_id": "789842622303986681",
+      "author_display": "Mateo Okafor",
+      "author_handle": "@mateookafor@social.coop",
+      "display_time": "5h",
+      "text": "Small win: fixed a bug that has been haunting me for 47 weeks. Volunteering at the lake this Saturday, come say hi if you are around. #Python #Birding #ClimateAction",
+      "visible_text": "Small win: fixed a bug that has been haunting me for 47 weeks. Volunteering at the lake this Saturday, come say hi if you are around. #Python #Birding #ClimateAction",
+      "content_warning": null,
+      "boosted_by": "Felix Santos 🚲",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 1,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/f3e7e1616f.png"
+    }
+  ]
+}

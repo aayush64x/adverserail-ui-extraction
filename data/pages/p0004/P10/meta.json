@@ -1,0 +1,57 @@
+{
+  "page_id": "p0004",
+  "perturbation": "P10",
+  "perturbation_name": "combo",
+  "aimed_at": "both",
+  "severity": 1,
+  "rng_seed": "7|p0004|P10|1",
+  "params": {
+    "P3": {
+      "decoys": {
+        "handle": 4,
+        "body": 4,
+        "count": 12,
+        "post": 2
+      }
+    },
+    "P4": {
+      "homoglyphs": 251,
+      "zero_width": 107
+    },
+    "P2": {
+      "containers_shuffled": 29
+    },
+    "P8": {
+      "blur_px": 0.35,
+      "noise_opacity": 0.28,
+      "stripe_alpha": 0.045,
+      "angle": 30,
+      "noise_seed": 8596
+    }
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1343
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1343
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 28349,
+    "dom_html_cleaned": 19703,
+    "dom_html": 19703,
+    "dom_html_truncated": false,
+    "inner_txt": 1551
+  },
+  "n_posts": 4,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

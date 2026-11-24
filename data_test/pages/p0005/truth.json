@@ -1,0 +1,143 @@
+{
+  "page_id": "p0005",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0005_0",
+      "status_id": "262005791909288046",
+      "author_display": "Mara Murphy 🚲",
+      "author_handle": "@marawrites@photog.social",
+      "display_time": "2h",
+      "text": "Hot take: Home Assistant error messages are better than most documentation. cc @mei_ok 🎨 #Accessibility #Fediverse #FOSS",
+      "visible_text": "Hot take: Home Assistant error messages are better than most documentation. cc @mei_ok 🎨 #Accessibility #Fediverse #FOSS",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/63c9a8143c.png",
+        "alt": "Screenshot of an app window. The text says: Order #31 shipped",
+        "embedded_text": "Order #31 shipped",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3022,
+            0.83,
+            0.4022
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 44,
+        "boosts": 5,
+        "favourites": 710
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/4cda78d3a6.png"
+    },
+    {
+      "post_id": "p0005_1",
+      "status_id": "420049430738171557",
+      "author_display": "Aiko Haddad 🌱",
+      "author_handle": "@aikohaddad_art@photog.social",
+      "display_time": "4h",
+      "text": "This explains it well: https://smallweb.dev/notes/9623",
+      "visible_text": "This explains it well: https://smallweb.dev/notes/9623",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://smallweb.dev/notes/9623",
+        "title": "The case for boring technology in 2025",
+        "domain": "smallweb.dev",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/8cec457089.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 23
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/6eb01ac766.png"
+    },
+    {
+      "post_id": "p0005_2",
+      "status_id": "956291629492232390",
+      "author_display": "Elif Chen ☕",
+      "author_handle": "@echen_eu@mastodon.social",
+      "display_time": "1d",
+      "text": "Third attempt at dumplings today and it actually worked. Is it just me or did Rust get noticeably faster in the last release?",
+      "visible_text": "Third attempt at dumplings today and it actually worked. Is it just me or did Rust get noticeably faster in the last release?",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 3,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/8c38b53d6a.png"
+    },
+    {
+      "post_id": "p0005_3",
+      "status_id": "929485998008320507",
+      "author_display": "Sam Sharma",
+      "author_handle": "@samsharma_photo@scholar.social",
+      "display_time": "1d",
+      "text": "Our tiny team shipped release 9.10 after 64 days of testing. Measured 61 mm of rain overnight, the garden is very happy.",
+      "visible_text": "Our tiny team shipped release 9.10 after 64 days of testing. Measured 61 mm of rain overnight, the garden is very happy.",
+      "content_warning": "food (meat)",
+      "boosted_by": "Ingrid Chen",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 5
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "boost"
+      ],
+      "avatar": "img/bcaed7a3d9.png"
+    },
+    {
+      "post_id": "p0005_4",
+      "status_id": "288218236871391349",
+      "author_display": "Mei Okafor",
+      "author_handle": "@mokafor@mastodon.scot",
+      "display_time": "1d",
+      "text": "@achen_eu Took 40 photos at our community garden and exactly one of them is in focus. ✨ #Accessibility",
+      "visible_text": "@achen_eu Took 40 photos at our community garden and exactly one of them is in focus. ✨ #Accessibility",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/4a1d8b6ff1.png"
+    }
+  ]
+}

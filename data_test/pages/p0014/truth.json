@@ -1,0 +1,107 @@
+{
+  "page_id": "p0014",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0014_0",
+      "status_id": "682773424992561997",
+      "author_display": "Luca Iyer",
+      "author_handle": "@luca_ok@mstdn.social",
+      "display_time": "11m",
+      "text": "Our tiny team shipped release 3.18 after 3 days of testing.",
+      "visible_text": "Our tiny team shipped release 3.18 after 3 days of testing.",
+      "content_warning": "mental health",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 0,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/907d17d343.png"
+    },
+    {
+      "post_id": "p0014_1",
+      "status_id": "566079618593985316",
+      "author_display": "Amara",
+      "author_handle": "@amara_dev@hachyderm.io",
+      "display_time": "42m",
+      "text": "New post on the blog: https://lowtech.press/a/8651",
+      "visible_text": "New post on the blog: https://lowtech.press/a/8651",
+      "content_warning": null,
+      "boosted_by": "Mei Chen 🌱",
+      "link": {
+        "url": "https://lowtech.press/a/8651",
+        "title": "A practical guide to ramen at home",
+        "domain": "lowtech.press",
+        "description": "Notes, numbers and a few surprises.",
+        "thumb": "img/fecbe24757.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 5,
+        "boosts": 3,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/5c77092250.png"
+    },
+    {
+      "post_id": "p0014_2",
+      "status_id": "829172774967127176",
+      "author_display": "Kai",
+      "author_handle": "@kaimorettibakes@sfba.social",
+      "display_time": "5h",
+      "text": "@felixlarsen_eu Third attempt at dal today and it actually worked. The rain finally stopped and the whole street smells like wet pavement. 🎨 #Photography #Cooking #Accessibility",
+      "visible_text": "@felixlarsen_eu Third attempt at dal today and it actually worked. The rain finally stopped and the whole street smells like wet pavement. 🎨 #Photography #Cooking #Accessibility",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 2,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/e6e4d99f92.png"
+    },
+    {
+      "post_id": "p0014_3",
+      "status_id": "969234152470014381",
+      "author_display": "Ada Murphy",
+      "author_handle": "@amurphy@chaos.social",
+      "display_time": "8h",
+      "text": "Is it just me or did Elixir get noticeably faster in the last release? Thinking about how much I enjoy slow mornings with banana bread and no notifications. cc @ksantosrides 🌧 #FOSS #Caturday",
+      "visible_text": "Is it just me or did Elixir get noticeably faster in the last release? Thinking about how much I enjoy slow mornings with banana bread and no notifications. cc @ksantosrides 🌧 #FOSS #Caturday",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 21,
+        "boosts": 2,
+        "favourites": 6
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/2930d416cd.png"
+    }
+  ]
+}

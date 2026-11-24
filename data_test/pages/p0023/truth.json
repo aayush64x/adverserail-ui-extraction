@@ -1,0 +1,155 @@
+{
+  "page_id": "p0023",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0023_0",
+      "status_id": "460728847329742555",
+      "author_display": "Sam Kim 🌱",
+      "author_handle": "@sam_kim@mastodon.social",
+      "display_time": "1h",
+      "text": "The hedgehog next door learned to open our gate. We are negotiating. cc @lenamurphy_dev ☕ #Caturday #Photography",
+      "visible_text": "The hedgehog next door learned to open our gate. We are negotiating. cc @lenamurphy_dev ☕ #Caturday #Photography",
+      "content_warning": "spoilers: The Left Hand of Darkness",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 11,
+        "boosts": 4,
+        "favourites": 499
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/592e436c10.png"
+    },
+    {
+      "post_id": "p0023_1",
+      "status_id": "119067307611253441",
+      "author_display": "Aiko Rossi",
+      "author_handle": "@aiko_rossi42@photog.social",
+      "display_time": "1h",
+      "text": "@freya_iyer Our neighbourhood mesh network now has 3 nodes running. Volunteering at the coffee shop on 5th this Saturday, come say hi if you are around. 🚲 #Rust",
+      "visible_text": "@freya_iyer Our neighbourhood mesh network now has 3 nodes running. Volunteering at the coffee shop on 5th this Saturday, come say hi if you are around. 🚲 #Rust",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 9,
+        "boosts": 0,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/1e79b7f0d0.png"
+    },
+    {
+      "post_id": "p0023_2",
+      "status_id": "992949995981706415",
+      "author_display": "Ada Larsen",
+      "author_handle": "@adalarsencodes@ruby.social",
+      "display_time": "2h",
+      "text": "Small win: fixed a bug that has been haunting me for 82 weeks.",
+      "visible_text": "Small win: fixed a bug that has been haunting me for 82 weeks.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 0,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/8297c8f686.png"
+    },
+    {
+      "post_id": "p0023_3",
+      "status_id": "771811966843174525",
+      "author_display": "Amara Banda",
+      "author_handle": "@amara_art@mastodon.art",
+      "display_time": "3h",
+      "text": "Took 7 photos at the makerspace and exactly one of them is in focus. The rain finally stopped and the whole street smells like wet pavement.",
+      "visible_text": "Took 7 photos at the makerspace and exactly one of them is in focus. The rain finally stopped and the whole street smells like wet pavement.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/abd842775b.png",
+        "alt": "A cartoon face with meme captions. The text says: WHEN THE BUS IS ON TIME TAKES 29 HOURS",
+        "embedded_text": "WHEN THE BUS IS ON TIME TAKES 29 HOURS",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.0387,
+            0.0644,
+            0.9613,
+            0.1644
+          ],
+          [
+            0.1575,
+            0.8244,
+            0.8425,
+            0.9378
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 0,
+        "boosts": 1,
+        "favourites": 7
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/98212d13f1.png"
+    },
+    {
+      "post_id": "p0023_4",
+      "status_id": "337585636884611516",
+      "author_display": "Hana 🌱",
+      "author_handle": "@hlarsencodes@mastodon.scot",
+      "display_time": "4h",
+      "text": "Sketched the lake during lunch, still learning how to draw bicycles. Is it just me or did Kubernetes get noticeably faster in the last release? 🐧 #HomeLab #Cycling",
+      "visible_text": "Sketched the lake during lunch, still learning how to draw bicycles. Is it just me or did Kubernetes get noticeably faster in the last release? 🐧 #HomeLab #Cycling",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/410cb87687.png",
+        "alt": "Screenshot of an app window",
+        "embedded_text": "59 unread messages",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3022,
+            0.8888,
+            0.4022
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 1,
+        "boosts": 3,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/ac4074e65c.png"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "page_id": "p0013",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0013_0",
+      "status_id": "431953007945319461",
+      "author_display": "Jonas Volkov 🚲",
+      "author_handle": "@jonasvolkov@aus.social",
+      "display_time": "44m",
+      "text": "This explains it well: https://lowtech.press/2026/3822 The cat next door learned to open our gate. We are negotiating. Small win: fixed a bug that has been haunting me for 96 weeks.",
+      "visible_text": "This explains it well: https://lowtech.press/2026/3822 The cat next door learned to open our gate. We are negotiating. Small win: fixed a bug that has been haunting me for 96 weeks.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://lowtech.press/2026/3822",
+        "title": "A practical guide to ramen at home",
+        "domain": "lowtech.press",
+        "description": "Short read, about five minutes.",
+        "thumb": "img/f1ffbfb6c2.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 43,
+        "boosts": 3,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/796a9f7492.png"
+    },
+    {
+      "post_id": "p0013_1",
+      "status_id": "393267989202630153",
+      "author_display": "Jonas Abbott 🌱",
+      "author_handle": "@jonasreads@mastodon.social",
+      "display_time": "4h",
+      "text": "Thinking about how much I enjoy slow mornings with tacos and no notifications.",
+      "visible_text": "Thinking about how much I enjoy slow mornings with tacos and no notifications.",
+      "content_warning": "politics",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 10,
+        "boosts": 4,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/8aa7d20634.png"
+    },
+    {
+      "post_id": "p0013_2",
+      "status_id": "696426751568041141",
+      "author_display": "Greta Diallo 🚲",
+      "author_handle": "@gretadiallo@infosec.exchange",
+      "display_time": "5h",
+      "text": "Sketched the farmers market during lunch, still learning how to draw bicycles. Our neighbourhood mesh network now has 40 nodes running. 🚲 #HomeLab #Photography",
+      "visible_text": "Sketched the farmers market during lunch, still learning how to draw bicycles. Our neighbourhood mesh network now has 40 nodes running. 🚲 #HomeLab #Photography",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 6,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/a4be14c592.png"
+    },
+    {
+      "post_id": "p0013_3",
+      "status_id": "848447636808157329",
+      "author_display": "Rosa Yilmaz",
+      "author_handle": "@ryilmaz_ok@mathstodon.xyz",
+      "display_time": "7h",
+      "text": "@sakuraiyer Is it just me or did Linux get noticeably faster in the last release? Measured 90 mm of rain overnight, the garden is very happy. Third attempt at jollof rice today and it actually worked. The rain finally stopped and the whole street smells like wet pavement. My hedgehog has decided the keyboard is the warmest spot in the house. Hot take: SQLite error messages are better than most documentation. ☕ #Rust",
+      "visible_text": "@sakuraiyer Is it just me or did Linux get noticeably faster in the last release? Measured 90 mm of rain overnight, the garden is very happy. Third attempt at jollof rice today and it actually worked. The rain finally stopped and the whole street smells like wet",
+      "content_warning": null,
+      "boosted_by": "Dmitri ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 147,
+        "favourites": 2
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/ff09d53b18.png"
+    },
+    {
+      "post_id": "p0013_4",
+      "status_id": "866209237809635865",
+      "author_display": "Elif",
+      "author_handle": "@elifcodes@hachyderm.io",
+      "display_time": "7h",
+      "text": "Accidentally made enough focaccia for 60 people. Neighbours are getting some. Packing list for the weekend trip is 51 items long and somehow still missing socks. 🌧 #Cycling #Rust #HomeLab",
+      "visible_text": "Accidentally made enough focaccia for 60 people. Neighbours are getting some. Packing list for the weekend trip is 51 items long and somehow still missing socks. 🌧 #Cycling #Rust #HomeLab",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 9,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/0f196c33d3.png"
+    }
+  ]
+}

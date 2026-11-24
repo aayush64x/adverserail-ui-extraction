@@ -1,0 +1,142 @@
+{
+  "page_id": "p0002",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0002_0",
+      "status_id": "496251974797110416",
+      "author_display": "Yusuf Kim 📷",
+      "author_handle": "@yusuf_kim@floss.social",
+      "display_time": "7m",
+      "text": "Interesting study: https://slowweb.zone/blog/6300 The fox next door learned to open our gate. We are negotiating. If anyone has a good focaccia recipe that does not need a stand mixer, please share. cc @adarides 📚 #Cooking #Baking #Python",
+      "visible_text": "Interesting study: https://slowweb.zone/blog/6300 The fox next door learned to open our gate. We are negotiating. If anyone has a good focaccia recipe that does not need a stand mixer, please share. cc @adarides 📚 #Cooking #Baking #Python",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://slowweb.zone/blog/6300",
+        "title": "What we learned running SQLite for 24 months",
+        "domain": "slowweb.zone",
+        "description": "An explainer with charts and sources.",
+        "thumb": "img/570905126f.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/1b4f8ee57f.png"
+    },
+    {
+      "post_id": "p0002_1",
+      "status_id": "401576537667233720",
+      "author_display": "Priya Brennan 🚲",
+      "author_handle": "@priyareads@chaos.social",
+      "display_time": "36m",
+      "text": "Our neighbourhood mesh network now has 22 nodes running.",
+      "visible_text": "Our neighbourhood mesh network now has 22 nodes running.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/c6887f2043.png",
+        "alt": "",
+        "embedded_text": "Rainfall: 86 mm in October",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.8812,
+            0.1578
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 2,
+        "boosts": 2,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/4cddcdb0b8.png"
+    },
+    {
+      "post_id": "p0002_2",
+      "status_id": "785003984741443032",
+      "author_display": "Femi Nakamura",
+      "author_handle": "@fnakamurabakes@photog.social",
+      "display_time": "58m",
+      "text": "Reading The Left Hand of Darkness again and it hits differently this year. Packing list for the weekend trip is 8 items long and somehow still missing socks.",
+      "visible_text": "Reading The Left Hand of Darkness again and it hits differently this year. Packing list for the weekend trip is 8 items long and somehow still missing socks.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 3,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/1f1046ceca.png"
+    },
+    {
+      "post_id": "p0002_3",
+      "status_id": "703922969638259474",
+      "author_display": "Ada Iyer 🚲",
+      "author_handle": "@ada@mastodon.social",
+      "display_time": "3h",
+      "text": "@bramrossi42 Measured 24 mm of rain overnight, the garden is very happy. Started a reading log and I am already behind by 27 pages. 📚 #Baking",
+      "visible_text": "@bramrossi42 Measured 24 mm of rain overnight, the garden is very happy. Started a reading log and I am already behind by 27 pages. 📚 #Baking",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 52,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/d25aed6608.png"
+    },
+    {
+      "post_id": "p0002_4",
+      "status_id": "331439981863268979",
+      "author_display": "Hana Kim",
+      "author_handle": "@hana_kimhq@techhub.social",
+      "display_time": "6h",
+      "text": "Thinking about how much I enjoy slow mornings with sourdough and no notifications. Is it just me or did Postgres get noticeably faster in the last release? 🙌 #Caturday",
+      "visible_text": "Thinking about how much I enjoy slow mornings with sourdough and no notifications. Is it just me or did Postgres get noticeably faster in the last release? 🙌 #Caturday",
+      "content_warning": "rant about software",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 0,
+        "favourites": 16
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/52ef149ddf.png"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "page_id": "p0021",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0021_0",
+      "status_id": "377784030418222472",
+      "author_display": "Ines 🌱",
+      "author_handle": "@inielsenbakes@social.coop",
+      "display_time": "3h",
+      "text": "Third attempt at miso soup today and it actually worked.",
+      "visible_text": "Third attempt at miso soup today and it actually worked.",
+      "content_warning": null,
+      "boosted_by": "Sofia Nielsen",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 6,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "boost"
+      ],
+      "avatar": "img/38a47706ce.png"
+    },
+    {
+      "post_id": "p0021_1",
+      "status_id": "126754942861850605",
+      "author_display": "Sam Kim",
+      "author_handle": "@sam_pdx@mas.to",
+      "display_time": "5h",
+      "text": "Hot take: Go error messages are better than most documentation. Finally finished repotting 79 tomato seedlings on the bike co-op. Took 81 photos at the old library and exactly one of them is in focus. Packing list for the weekend trip is 47 items long and somehow still missing socks. Started a reading log and I am already behind by 44 pages. Volunteering at the old library this Thursday, come say hi if you are around. My dog has decided the keyboard is the warmest spot in the house.",
+      "visible_text": "Hot take: Go error messages are better than most documentation. Finally finished repotting 79 tomato seedlings on the bike co-op. Took 81 photos at the old library and exactly one of them is in focus. Packing list for the weekend trip is 47 items long and somehow still missing",
+      "content_warning": null,
+      "boosted_by": "Rosa Okafor 📷",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 16,
+        "favourites": 3
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "boost"
+      ],
+      "avatar": "img/414eff7672.png"
+    },
+    {
+      "post_id": "p0021_2",
+      "status_id": "941899026091730067",
+      "author_display": "Owen Novak ☕",
+      "author_handle": "@owen_novakcodes@mastodon.online",
+      "display_time": "6h",
+      "text": "Wrote up my notes: https://greenleaf.garden/notes/1585",
+      "visible_text": "Wrote up my notes: https://greenleaf.garden/notes/1585",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://greenleaf.garden/notes/1585",
+        "title": "Inside the volunteer-run the coffee shop on 5th",
+        "domain": "greenleaf.garden",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/9ded1a4f9f.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 36,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/563dce2b00.png"
+    },
+    {
+      "post_id": "p0021_3",
+      "status_id": "986742586046866383",
+      "author_display": "Linnea 📷",
+      "author_handle": "@ldubois_photo@mastodon.art",
+      "display_time": "6h",
+      "text": "Our tiny team shipped release 7.8 after 57 days of testing. Thinking about how much I enjoy slow mornings with ramen and no notifications.",
+      "visible_text": "Our tiny team shipped release 7.8 after 57 days of testing. Thinking about how much I enjoy slow mornings with ramen and no notifications.",
+      "content_warning": null,
+      "boosted_by": "Linnea Eriksen",
+      "link": null,
+      "image": {
+        "file": "img/e6c58e9086.png",
+        "alt": "Screenshot of an app window",
+        "embedded_text": "Order #23 shipped",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3022,
+            0.83,
+            0.4022
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 7,
+        "boosts": 128,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "boost"
+      ],
+      "avatar": "img/29c7df3f2f.png"
+    }
+  ]
+}

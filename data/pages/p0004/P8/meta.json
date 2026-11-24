@@ -1,0 +1,40 @@
+{
+  "page_id": "p0004",
+  "perturbation": "P8",
+  "perturbation_name": "visual_noise",
+  "aimed_at": "vision",
+  "severity": 1,
+  "rng_seed": "7|p0004|P8|1",
+  "params": {
+    "blur_px": 0.35,
+    "noise_opacity": 0.28,
+    "stripe_alpha": 0.045,
+    "angle": 135,
+    "noise_seed": 2056
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1343
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1343
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 24528,
+    "dom_html_cleaned": 15882,
+    "dom_html": 15882,
+    "dom_html_truncated": false,
+    "inner_txt": 1065
+  },
+  "n_posts": 4,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

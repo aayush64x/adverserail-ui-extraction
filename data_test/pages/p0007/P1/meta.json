@@ -1,0 +1,37 @@
+{
+  "page_id": "p0007",
+  "perturbation": "P1",
+  "perturbation_name": "class_obfuscation",
+  "aimed_at": "selector scrapers",
+  "severity": 1,
+  "rng_seed": "2027|p0007|P1|1",
+  "params": {
+    "n_classes": 86,
+    "n_ids": 2
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1088
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1088
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 17321,
+    "dom_html_cleaned": 10100,
+    "dom_html": 10100,
+    "dom_html_truncated": false,
+    "inner_txt": 627
+  },
+  "n_posts": 3,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

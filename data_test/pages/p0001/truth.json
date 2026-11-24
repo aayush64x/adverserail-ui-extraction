@@ -1,0 +1,106 @@
+{
+  "page_id": "p0001",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0001_0",
+      "status_id": "620964764185920021",
+      "author_display": "Dmitri",
+      "author_handle": "@dmitri@ruby.social",
+      "display_time": "1h",
+      "text": "Packing list for the weekend trip is 82 items long and somehow still missing socks. Our neighbourhood mesh network now has 55 nodes running. cc @linnea_diallo_eu #Rust",
+      "visible_text": "Packing list for the weekend trip is 82 items long and somehow still missing socks. Our neighbourhood mesh network now has 55 nodes running. cc @linnea_diallo_eu #Rust",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 60,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/2f94ce087b.png"
+    },
+    {
+      "post_id": "p0001_1",
+      "status_id": "751538106347017261",
+      "author_display": "Sakura",
+      "author_handle": "@sakura@aus.social",
+      "display_time": "1d",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. If anyone has a good focaccia recipe that does not need a stand mixer, please share. cc @linnea_diallo_eu 🙌 #SelfHosting #Photography",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. If anyone has a good focaccia recipe that does not need a stand mixer, please share. cc @linnea_diallo_eu 🙌 #SelfHosting #Photography",
+      "content_warning": "long post",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 18,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich"
+      ],
+      "avatar": "img/f7557d2c3f.png"
+    },
+    {
+      "post_id": "p0001_2",
+      "status_id": "852582393113659622",
+      "author_display": "Mara Sharma ☕",
+      "author_handle": "@msharma_ok@chaos.social",
+      "display_time": "2d",
+      "text": "Volunteering at the city archive this Thursday, come say hi if you are around. Reminder that the bike repair cafe is open every Saturday at the bike co-op. The cat next door learned to open our gate. We are negotiating. Started a reading log and I am already behind by 25 pages. Is it just me or did Blender get noticeably faster in the last release? Reading Project Hail Mary again and it hits differently this year. Spent the whole morning at the riverside path and saw 12 herons. Accidentally made enough ramen for 76 people. Neighbours are getting some.",
+      "visible_text": "Volunteering at the city archive this Thursday, come say hi if you are around. Reminder that the bike repair cafe is open every Saturday at the bike co-op. The cat next door learned to open our gate. We are negotiating. Started a reading log and I am already behind by 25",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 1,
+        "favourites": 2
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/0c8d36e848.png"
+    },
+    {
+      "post_id": "p0001_3",
+      "status_id": "137217056345312901",
+      "author_display": "Jonas Yilmaz",
+      "author_handle": "@jonasbakes@mathstodon.xyz",
+      "display_time": "2d",
+      "text": "This explains it well: https://codecraft.io/posts/4960 My cat has decided the keyboard is the warmest spot in the house. Finally finished repotting 68 tomato seedlings on the farmers market. 🎉 #OpenSource #SelfHosting",
+      "visible_text": "This explains it well: https://codecraft.io/posts/4960 My cat has decided the keyboard is the warmest spot in the house. Finally finished repotting 68 tomato seedlings on the farmers market. 🎉 #OpenSource #SelfHosting",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://codecraft.io/posts/4960",
+        "title": "2 lessons from a year of composting",
+        "domain": "codecraft.io",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/95ffddcb4e.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 5,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/299a91cd78.png"
+    }
+  ]
+}

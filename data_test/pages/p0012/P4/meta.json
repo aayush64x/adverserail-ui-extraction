@@ -1,0 +1,37 @@
+{
+  "page_id": "p0012",
+  "perturbation": "P4",
+  "perturbation_name": "homoglyph_zw",
+  "aimed_at": "text",
+  "severity": 1,
+  "rng_seed": "2027|p0012|P4|1",
+  "params": {
+    "homoglyphs": 226,
+    "zero_width": 89
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1320
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1320
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 24392,
+    "dom_html_cleaned": 15832,
+    "dom_html": 15832,
+    "dom_html_truncated": false,
+    "inner_txt": 1289
+  },
+  "n_posts": 4,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

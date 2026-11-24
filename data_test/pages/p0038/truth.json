@@ -1,0 +1,88 @@
+{
+  "page_id": "p0038",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0038_0",
+      "status_id": "130220830683994799",
+      "author_display": "Niko Yilmaz",
+      "author_handle": "@niko_n@techhub.social",
+      "display_time": "13m",
+      "text": "Today I learned that Python has a built in profiler. Wish I knew that 9 months ago. Third attempt at banana bread today and it actually worked.",
+      "visible_text": "Today I learned that Python has a built in profiler. Wish I knew that 9 months ago. Third attempt at banana bread today and it actually worked.",
+      "content_warning": "eye contact",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 2,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/0138607720.png"
+    },
+    {
+      "post_id": "p0038_1",
+      "status_id": "343447102759566492",
+      "author_display": "Yusuf",
+      "author_handle": "@yusufyilmaz@photog.social",
+      "display_time": "2h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. Our tiny team shipped release 4.1 after 27 days of testing.",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. Our tiny team shipped release 4.1 after 27 days of testing.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/843ea401e6.png",
+        "alt": "Screenshot of an app window",
+        "embedded_text": "Build failed after 47 minutes",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3156,
+            0.865,
+            0.3689
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 1,
+        "boosts": 16,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/962595cc45.png"
+    },
+    {
+      "post_id": "p0038_2",
+      "status_id": "297306398928338739",
+      "author_display": "Mei Nakamura",
+      "author_handle": "@mnakamura99@chaos.social",
+      "display_time": "2h",
+      "text": "If anyone has a good miso soup recipe that does not need a stand mixer, please share.",
+      "visible_text": "If anyone has a good miso soup recipe that does not need a stand mixer, please share.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 0,
+        "favourites": 22
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/cc0fd17d70.png"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "page_id": "p0004",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0004_0",
+      "status_id": "262433516201013661",
+      "author_display": "Mara Brennan",
+      "author_handle": "@marabrennan_pdx@mastodon.social",
+      "display_time": "2h",
+      "text": "Worth your time: https://greenleaf.garden/2026/7061 Volunteering at the riverside path this Monday, come say hi if you are around.",
+      "visible_text": "Worth your time: https://greenleaf.garden/2026/7061 Volunteering at the riverside path this Monday, come say hi if you are around.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://greenleaf.garden/2026/7061",
+        "title": "A practical guide to miso soup at home",
+        "domain": "greenleaf.garden",
+        "description": "Notes, numbers and a few surprises.",
+        "thumb": "img/f408c67dda.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 2,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/790387261d.png"
+    },
+    {
+      "post_id": "p0004_1",
+      "status_id": "964324541230996270",
+      "author_display": "Priya Dubois 🌱",
+      "author_handle": "@priyadubois99@sfba.social",
+      "display_time": "3h",
+      "text": "Sketched the night market during lunch, still learning how to draw bicycles. cc @imaniyilmazwrites 😅 #Cycling",
+      "visible_text": "Sketched the night market during lunch, still learning how to draw bicycles. cc @imaniyilmazwrites 😅 #Cycling",
+      "content_warning": "rant about software",
+      "boosted_by": "Femi Kowalski ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 45,
+        "boosts": 2,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/a076217e9e.png"
+    },
+    {
+      "post_id": "p0004_2",
+      "status_id": "755070444902925582",
+      "author_display": "Imani 📷",
+      "author_handle": "@inielsen_ok@social.coop",
+      "display_time": "4h",
+      "text": "@freya_yilmazbakes Hot take: Elixir error messages are better than most documentation. Reminder that the bike repair cafe is open every Sunday at the makerspace. #Python #Fediverse",
+      "visible_text": "@freya_yilmazbakes Hot take: Elixir error messages are better than most documentation. Reminder that the bike repair cafe is open every Sunday at the makerspace. #Python #Fediverse",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 39,
+        "boosts": 1,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/3780799cb6.png"
+    },
+    {
+      "post_id": "p0004_3",
+      "status_id": "205402210909820591",
+      "author_display": "Femi Abbott",
+      "author_handle": "@femi_abbott_dev@photog.social",
+      "display_time": "1d",
+      "text": "Today I learned that Blender has a built in profiler. Wish I knew that 7 months ago. Packing list for the weekend trip is 88 items long and somehow still missing socks.",
+      "visible_text": "Today I learned that Blender has a built in profiler. Wish I knew that 7 months ago. Packing list for the weekend trip is 88 items long and somehow still missing socks.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/59b6cd38e5.png",
+        "alt": "",
+        "embedded_text": "Build failed after 10 minutes",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3156,
+            0.865,
+            0.3689
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 2,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/3c3f076da4.png"
+    }
+  ]
+}

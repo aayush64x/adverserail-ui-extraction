@@ -1,0 +1,119 @@
+{
+  "page_id": "p0006",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0006_0",
+      "status_id": "590290143053928071",
+      "author_display": "Olu",
+      "author_handle": "@olu_photo@mastodon.art",
+      "display_time": "19m",
+      "text": "Interesting study: https://fieldnotes.blog/posts/2818 Upgraded the home server to Postgres 8.10 without breaking anything, which feels suspicious. The rain finally stopped and the whole street smells like wet pavement.",
+      "visible_text": "Interesting study: https://fieldnotes.blog/posts/2818 Upgraded the home server to Postgres 8.10 without breaking anything, which feels suspicious. The rain finally stopped and the whole street smells like wet pavement.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://fieldnotes.blog/posts/2818",
+        "title": "The case for boring technology in 2025",
+        "domain": "fieldnotes.blog",
+        "description": "An explainer with charts and sources.",
+        "thumb": "img/632354be4c.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 0,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/25e3c5e72f.png"
+    },
+    {
+      "post_id": "p0006_1",
+      "status_id": "768098858061591175",
+      "author_display": "Bram Yilmaz 🌱",
+      "author_handle": "@bram_yilmazbakes@scholar.social",
+      "display_time": "58m",
+      "text": "The parrot next door learned to open our gate. We are negotiating. Small win: fixed a bug that has been haunting me for 86 weeks.",
+      "visible_text": "The parrot next door learned to open our gate. We are negotiating. Small win: fixed a bug that has been haunting me for 86 weeks.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 5,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/b53614e739.png"
+    },
+    {
+      "post_id": "p0006_2",
+      "status_id": "675177479876459096",
+      "author_display": "Elif",
+      "author_handle": "@elifkowalski_n@techhub.social",
+      "display_time": "1h",
+      "text": "Took 88 photos at the old library and exactly one of them is in focus. Our tiny team shipped release 5.0 after 91 days of testing.",
+      "visible_text": "Took 88 photos at the old library and exactly one of them is in focus. Our tiny team shipped release 5.0 after 91 days of testing.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/2a55c6967e.png",
+        "alt": "Screenshot of an app window. The text says: Day 55 of learning Rust",
+        "embedded_text": "Day 55 of learning Rust",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3089,
+            0.8812,
+            0.3956
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 6,
+        "favourites": 342
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/03da13a284.png"
+    },
+    {
+      "post_id": "p0006_3",
+      "status_id": "763829679660088105",
+      "author_display": "Felix Okafor 🚲",
+      "author_handle": "@felix_ok@sfba.social",
+      "display_time": "5h",
+      "text": "Volunteering at the bike co-op this Monday, come say hi if you are around. If anyone has a good dal recipe that does not need a stand mixer, please share. Spent the whole morning at the makerspace and saw 92 herons. Reading Project Hail Mary again and it hits differently this year. Reminder that the bike repair cafe is open every Thursday at the bike co-op. Sketched our community garden during lunch, still learning how to draw bicycles. Third attempt at jollof rice today and it actually worked. Thinking about how much I enjoy slow mornings with ramen and no notifications. 🌱 #Baking #Cycling #Weather",
+      "visible_text": "Volunteering at the bike co-op this Monday, come say hi if you are around. If anyone has a good dal recipe that does not need a stand mixer, please share. Spent the whole morning at the makerspace and saw 92 herons.",
+      "content_warning": null,
+      "boosted_by": "Priya Kim",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 4,
+        "favourites": 1
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/fbdebb801a.png"
+    }
+  ]
+}

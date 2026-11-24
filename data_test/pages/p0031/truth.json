@@ -1,0 +1,130 @@
+{
+  "page_id": "p0031",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0031_0",
+      "status_id": "373424399813755513",
+      "author_display": "Dmitri 📷",
+      "author_handle": "@dmitri_nakamuracodes@mastodon.online",
+      "display_time": "10h",
+      "text": "Reading Piranesi again and it hits differently this year. #UrbanSketching #Baking #HomeLab",
+      "visible_text": "Reading Piranesi again and it hits differently this year. #UrbanSketching #Baking #HomeLab",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 26,
+        "boosts": 103,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/e97f8f04ab.png"
+    },
+    {
+      "post_id": "p0031_1",
+      "status_id": "553761982318133828",
+      "author_display": "Elif",
+      "author_handle": "@elif_dev@hachyderm.io",
+      "display_time": "15h",
+      "text": "Our neighbourhood mesh network now has 85 nodes running. Third attempt at sourdough today and it actually worked. Accidentally made enough banana bread for 54 people. Neighbours are getting some. Took 76 photos at the riverside path and exactly one of them is in focus. Started a reading log and I am already behind by 95 pages. Spent the whole morning at the city archive and saw 59 herons. Is it just me or did Kubernetes get noticeably faster in the last release? 🌱 #Books #FOSS",
+      "visible_text": "Our neighbourhood mesh network now has 85 nodes running. Third attempt at sourdough today and it actually worked. Accidentally made enough banana bread for 54 people. Neighbours are getting some. Took 76 photos at the riverside path and exactly one of them is in focus.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 5,
+        "boosts": 51,
+        "favourites": 2
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich"
+      ],
+      "avatar": "img/917a826015.png"
+    },
+    {
+      "post_id": "p0031_2",
+      "status_id": "517718350360415973",
+      "author_display": "Luca Ortiz",
+      "author_handle": "@lortizbakes@techhub.social",
+      "display_time": "15h",
+      "text": "Today I learned that Kubernetes has a built in profiler. Wish I knew that 15 months ago. Packing list for the weekend trip is 19 items long and somehow still missing socks.",
+      "visible_text": "Today I learned that Kubernetes has a built in profiler. Wish I knew that 15 months ago. Packing list for the weekend trip is 19 items long and somehow still missing socks.",
+      "content_warning": null,
+      "boosted_by": "Owen Eriksen",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "boost"
+      ],
+      "avatar": "img/bafeb1a9b5.png"
+    },
+    {
+      "post_id": "p0031_3",
+      "status_id": "599714117977515266",
+      "author_display": "Owen 🌱",
+      "author_handle": "@ookafor_dev@infosec.exchange",
+      "display_time": "15h",
+      "text": "Volunteering at the riverside path this Wednesday, come say hi if you are around.",
+      "visible_text": "Volunteering at the riverside path this Wednesday, come say hi if you are around.",
+      "content_warning": "eye contact",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 1,
+        "favourites": 690
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/25e9ca1a10.png"
+    },
+    {
+      "post_id": "p0031_4",
+      "status_id": "524012487241465358",
+      "author_display": "Ines",
+      "author_handle": "@inesfischer_ok@techhub.social",
+      "display_time": "19h",
+      "text": "Good read: https://lowtech.press/notes/2055 Small win: fixed a bug that has been haunting me for 3 weeks. Hot take: Linux error messages are better than most documentation. #Linux #ClimateAction",
+      "visible_text": "Good read: https://lowtech.press/notes/2055 Small win: fixed a bug that has been haunting me for 3 weeks. Hot take: Linux error messages are better than most documentation. #Linux #ClimateAction",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://lowtech.press/notes/2055",
+        "title": "95 lessons from a year of composting",
+        "domain": "lowtech.press",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/21509c5970.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 3,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/6ef4c8bf62.png"
+    }
+  ]
+}

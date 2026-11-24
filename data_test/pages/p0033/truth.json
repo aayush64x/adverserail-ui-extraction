@@ -1,0 +1,148 @@
+{
+  "page_id": "p0033",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0033_0",
+      "status_id": "544424412623450344",
+      "author_display": "Hana Sharma ☕",
+      "author_handle": "@hana@mastodon.art",
+      "display_time": "26m",
+      "text": "If anyone has a good tacos recipe that does not need a stand mixer, please share. Measured 87 mm of rain overnight, the garden is very happy. Thinking about how much I enjoy slow mornings with tacos and no notifications. Reading A Psalm for the Wild-Built again and it hits differently this year. The crow next door learned to open our gate. We are negotiating. Sketched the city archive during lunch, still learning how to draw bicycles. My hedgehog has decided the keyboard is the warmest spot in the house. Spent the whole morning at the train station and saw 76 herons.",
+      "visible_text": "If anyone has a good tacos recipe that does not need a stand mixer, please share. Measured 87 mm of rain overnight, the garden is very happy. Thinking about how much I enjoy slow mornings with tacos and no notifications. Reading A Psalm for the",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 9,
+        "boosts": 0,
+        "favourites": 839
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/3a98548483.png"
+    },
+    {
+      "post_id": "p0033_1",
+      "status_id": "211741459600804131",
+      "author_display": "Olu Nielsen 📷",
+      "author_handle": "@olunielsenbakes@aus.social",
+      "display_time": "4h",
+      "text": "Packing list for the weekend trip is 75 items long and somehow still missing socks. Today I learned that Inkscape has a built in profiler. Wish I knew that 84 months ago.",
+      "visible_text": "Packing list for the weekend trip is 75 items long and somehow still missing socks. Today I learned that Inkscape has a built in profiler. Wish I knew that 84 months ago.",
+      "content_warning": "eye contact",
+      "boosted_by": "Tomás Murphy",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 12,
+        "boosts": 2,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "boost"
+      ],
+      "avatar": "img/3d23673b58.png"
+    },
+    {
+      "post_id": "p0033_2",
+      "status_id": "854675693280243548",
+      "author_display": "Luca",
+      "author_handle": "@luca_tanakarides@mastodon.social",
+      "display_time": "4h",
+      "text": "Wrote up my notes: https://riverbend.news/2026/1075",
+      "visible_text": "Wrote up my notes: https://riverbend.news/2026/1075",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://riverbend.news/2026/1075",
+        "title": "87 lessons from a year of composting",
+        "domain": "riverbend.news",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/67e916f86e.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/944cdbaab3.png"
+    },
+    {
+      "post_id": "p0033_3",
+      "status_id": "925825106593266370",
+      "author_display": "Niko 📷",
+      "author_handle": "@nikonovak@scholar.social",
+      "display_time": "6h",
+      "text": "Hot take: Go error messages are better than most documentation. Accidentally made enough lentil stew for 27 people. Neighbours are getting some.",
+      "visible_text": "Hot take: Go error messages are better than most documentation. Accidentally made enough lentil stew for 27 people. Neighbours are getting some.",
+      "content_warning": null,
+      "boosted_by": "Imani Novak",
+      "link": null,
+      "image": {
+        "file": "img/99b8b6b896.png",
+        "alt": "",
+        "embedded_text": "NOBODY: TAKES 39 HOURS",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.3162,
+            0.0556,
+            0.6825,
+            0.1689
+          ],
+          [
+            0.1575,
+            0.8244,
+            0.8425,
+            0.9378
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "boost"
+      ],
+      "avatar": "img/055076a4ef.png"
+    },
+    {
+      "post_id": "p0033_4",
+      "status_id": "875034290550310707",
+      "author_display": "Aiko Fischer 📷",
+      "author_handle": "@aiko_fischer@mastodon.social",
+      "display_time": "22h",
+      "text": "Took 12 photos at the riverside path and exactly one of them is in focus. Volunteering at my balcony this Thursday, come say hi if you are around.",
+      "visible_text": "Took 12 photos at the riverside path and exactly one of them is in focus. Volunteering at my balcony this Thursday, come say hi if you are around.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 2,
+        "favourites": 5
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/17bb8c1ab1.png"
+    }
+  ]
+}

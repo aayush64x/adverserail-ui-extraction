@@ -1,0 +1,77 @@
+{
+  "page_id": "p0028",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0028_0",
+      "status_id": "622198517216070925",
+      "author_display": "Diego Banda",
+      "author_handle": "@diego_banda@fosstodon.org",
+      "display_time": "1h",
+      "text": "Our neighbourhood mesh network now has 90 nodes running.",
+      "visible_text": "Our neighbourhood mesh network now has 90 nodes running.",
+      "content_warning": "health, mild",
+      "boosted_by": "Olu Santos ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 3,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "boost"
+      ],
+      "avatar": "img/488fd0cb31.png"
+    },
+    {
+      "post_id": "p0028_1",
+      "status_id": "238461929793773272",
+      "author_display": "Sofia Nielsen 🌱",
+      "author_handle": "@sofiacodes@ruby.social",
+      "display_time": "2h",
+      "text": "Our tiny team shipped release 9.18 after 42 days of testing. Reminder that the bike repair cafe is open every Thursday at the riverside path. Is it just me or did Kubernetes get noticeably faster in the last release? My parrot has decided the keyboard is the warmest spot in the house. Finally finished repotting 86 tomato seedlings on my balcony. The rain finally stopped and the whole street smells like wet pavement. Accidentally made enough lentil stew for 85 people. Neighbours are getting some. Packing list for the weekend trip is 26 items long and somehow still missing socks.",
+      "visible_text": "Our tiny team shipped release 9.18 after 42 days of testing. Reminder that the bike repair cafe is open every Thursday at the riverside path. Is it just me or did Kubernetes get noticeably faster in the last release? My parrot has decided",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 0,
+        "favourites": 4
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/74ef336b4c.png"
+    },
+    {
+      "post_id": "p0028_2",
+      "status_id": "134306014618724189",
+      "author_display": "Arjun Moretti 📷",
+      "author_handle": "@arjunmorettihq@mastodon.scot",
+      "display_time": "2h",
+      "text": "Today I learned that Elixir has a built in profiler. Wish I knew that 68 months ago. Third attempt at miso soup today and it actually worked. cc @ravi_art 🍞 #Cooking",
+      "visible_text": "Today I learned that Elixir has a built in profiler. Wish I knew that 68 months ago. Third attempt at miso soup today and it actually worked. cc @ravi_art 🍞 #Cooking",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 25,
+        "boosts": 2,
+        "favourites": 47
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/b291791b81.png"
+    }
+  ]
+}

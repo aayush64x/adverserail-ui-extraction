@@ -1,0 +1,95 @@
+{
+  "page_id": "p0007",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0007_0",
+      "status_id": "605496215242301644",
+      "author_display": "Zoe",
+      "author_handle": "@zyilmaz_eu@mstdn.social",
+      "display_time": "54m",
+      "text": "This explains it well: https://lowtech.press/blog/269",
+      "visible_text": "This explains it well: https://lowtech.press/blog/269",
+      "content_warning": null,
+      "boosted_by": "Imani Mensah",
+      "link": {
+        "url": "https://lowtech.press/blog/269",
+        "title": "Inside the volunteer-run our community garden",
+        "domain": "lowtech.press",
+        "description": "Notes, numbers and a few surprises.",
+        "thumb": "img/69815f5ad7.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "boost"
+      ],
+      "avatar": "img/5b038f1696.png"
+    },
+    {
+      "post_id": "p0007_1",
+      "status_id": "567054847064691214",
+      "author_display": "Ines Eriksen",
+      "author_handle": "@inesrides@mathstodon.xyz",
+      "display_time": "1h",
+      "text": "Thinking about how much I enjoy slow mornings with dumplings and no notifications.",
+      "visible_text": "Thinking about how much I enjoy slow mornings with dumplings and no notifications.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/c27a4e0299.png",
+        "alt": "A bar chart with rising bars",
+        "embedded_text": "Bike trips up 19% this year",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.8888,
+            0.18
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/3a58062418.png"
+    },
+    {
+      "post_id": "p0007_2",
+      "status_id": "782815526022814229",
+      "author_display": "Kwame Brennan 🌱",
+      "author_handle": "@kwamebrennan_art@aus.social",
+      "display_time": "1d",
+      "text": "My fox has decided the keyboard is the warmest spot in the house.",
+      "visible_text": "My fox has decided the keyboard is the warmest spot in the house.",
+      "content_warning": "spoilers: The Dispossessed",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 2,
+        "favourites": 14
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/7c422ddf07.png"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "page_id": "p0005",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0005_0",
+      "status_id": "776469035485693069",
+      "author_display": "Arjun Moretti",
+      "author_handle": "@amorettihq@mastodon.art",
+      "display_time": "1d",
+      "text": "Accidentally made enough lentil stew for 60 people. Neighbours are getting some. 💡 #Caturday #Cooking",
+      "visible_text": "Accidentally made enough lentil stew for 60 people. Neighbours are getting some. 💡 #Caturday #Cooking",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/b35c0f30e2.png",
+        "alt": "",
+        "embedded_text": "Bike trips up 92% this year",
+        "kind": "chart",
+        "text_boxes": [
+          [
+            0.05,
+            0.0844,
+            0.8888,
+            0.18
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 24,
+        "boosts": 6,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/aecf5168e5.png"
+    },
+    {
+      "post_id": "p0005_1",
+      "status_id": "410415252341464494",
+      "author_display": "Tariq",
+      "author_handle": "@tariq_dev@hachyderm.io",
+      "display_time": "1d",
+      "text": "Thinking about how much I enjoy slow mornings with dumplings and no notifications. Reading Project Hail Mary again and it hits differently this year.",
+      "visible_text": "Thinking about how much I enjoy slow mornings with dumplings and no notifications. Reading Project Hail Mary again and it hits differently this year.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 9,
+        "boosts": 4,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/3b2f08023d.png"
+    },
+    {
+      "post_id": "p0005_2",
+      "status_id": "520032125009287969",
+      "author_display": "Freya Mensah 📷",
+      "author_handle": "@fmensah42@social.coop",
+      "display_time": "2d",
+      "text": "@sakura_nakamura_photo Packing list for the weekend trip is 23 items long and somehow still missing socks. 🌧 #OpenSource #Python",
+      "visible_text": "@sakura_nakamura_photo Packing list for the weekend trip is 23 items long and somehow still missing socks. 🌧 #OpenSource #Python",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 15,
+        "boosts": 97,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/e41453df51.png"
+    },
+    {
+      "post_id": "p0005_3",
+      "status_id": "787801275553109614",
+      "author_display": "Olu 📷",
+      "author_handle": "@oluwrites@mastodon.social",
+      "display_time": "3d",
+      "text": "Volunteering at the farmers market this Friday, come say hi if you are around.",
+      "visible_text": "Volunteering at the farmers market this Friday, come say hi if you are around.",
+      "content_warning": "health, mild",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 0,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/a22a00f46b.png"
+    }
+  ]
+}

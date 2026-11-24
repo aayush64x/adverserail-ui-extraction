@@ -1,0 +1,108 @@
+{
+  "page_id": "p0022",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0022_0",
+      "status_id": "125842544793755389",
+      "author_display": "Ada Santos",
+      "author_handle": "@adasantoscodes@floss.social",
+      "display_time": "41m",
+      "text": "My cat has decided the keyboard is the warmest spot in the house. cc @ravi_weber_pdx ☕ #UrbanSketching #Gardening #FOSS",
+      "visible_text": "My cat has decided the keyboard is the warmest spot in the house. cc @ravi_weber_pdx ☕ #UrbanSketching #Gardening #FOSS",
+      "content_warning": "health, mild",
+      "boosted_by": "Owen",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 12,
+        "boosts": 11,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/86f72ef164.png"
+    },
+    {
+      "post_id": "p0022_1",
+      "status_id": "508067365339386304",
+      "author_display": "Felix",
+      "author_handle": "@felixokafor_n@aus.social",
+      "display_time": "1h",
+      "text": "Measured 90 mm of rain overnight, the garden is very happy. Today I learned that Postgres has a built in profiler. Wish I knew that 91 months ago. Hot take: Go error messages are better than most documentation. Took 90 photos at our community garden and exactly one of them is in focus. Is it just me or did Neovim get noticeably faster in the last release? Our neighbourhood mesh network now has 9 nodes running. The cat next door learned to open our gate. We are negotiating. Reminder that the bike repair cafe is open every Friday at the farmers market.",
+      "visible_text": "Measured 90 mm of rain overnight, the garden is very happy. Today I learned that Postgres has a built in profiler. Wish I knew that 91 months ago. Hot take: Go error messages are better than most documentation. Took 90 photos at our community garden and exactly one of",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 6,
+        "boosts": 3,
+        "favourites": 3
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated"
+      ],
+      "avatar": "img/ee16dfec19.png"
+    },
+    {
+      "post_id": "p0022_2",
+      "status_id": "217848823324394979",
+      "author_display": "Yusuf Berg",
+      "author_handle": "@yusufberg_dev@floss.social",
+      "display_time": "1h",
+      "text": "This explains it well: https://lowtech.press/posts/6140",
+      "visible_text": "This explains it well: https://lowtech.press/posts/6140",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://lowtech.press/posts/6140",
+        "title": "The case for boring technology in 2026",
+        "domain": "lowtech.press",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/008ea1373a.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 3,
+        "favourites": 17
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/2586fda4a4.png"
+    },
+    {
+      "post_id": "p0022_3",
+      "status_id": "217754787784635500",
+      "author_display": "Rosa Patel",
+      "author_handle": "@rosawrites@mstdn.social",
+      "display_time": "1h",
+      "text": "Volunteering at the city archive this Wednesday, come say hi if you are around. cc @ravi_weber_pdx 🎉 #OpenSource",
+      "visible_text": "Volunteering at the city archive this Wednesday, come say hi if you are around. cc @ravi_weber_pdx 🎉 #OpenSource",
+      "content_warning": null,
+      "boosted_by": "Arjun Moretti 🌱",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 7
+      },
+      "truncated": false,
+      "kinds": [
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/95e3efdf73.png"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "page_id": "p0035",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0035_0",
+      "status_id": "116201940243259735",
+      "author_display": "Ingrid Iyer 🚲",
+      "author_handle": "@iiyerrides@infosec.exchange",
+      "display_time": "4h",
+      "text": "Packing list for the weekend trip is 10 items long and somehow still missing socks. Took 61 photos at the lake and exactly one of them is in focus.",
+      "visible_text": "Packing list for the weekend trip is 10 items long and somehow still missing socks. Took 61 photos at the lake and exactly one of them is in focus.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 1,
+        "favourites": 8
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/e2c1ed0674.png"
+    },
+    {
+      "post_id": "p0035_1",
+      "status_id": "305693245660112258",
+      "author_display": "Aiko Kim",
+      "author_handle": "@aikokim@mas.to",
+      "display_time": "5h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. If anyone has a good banana bread recipe that does not need a stand mixer, please share.",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. If anyone has a good banana bread recipe that does not need a stand mixer, please share.",
+      "content_warning": "mental health",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 18,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/de1aa52e0a.png"
+    },
+    {
+      "post_id": "p0035_2",
+      "status_id": "802141862289091458",
+      "author_display": "Tomás Dubois",
+      "author_handle": "@tomasduboisreads@ruby.social",
+      "display_time": "9h",
+      "text": "Hot take: Go error messages are better than most documentation.",
+      "visible_text": "Hot take: Go error messages are better than most documentation.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "plain"
+      ],
+      "avatar": "img/79fefdb965.png"
+    },
+    {
+      "post_id": "p0035_3",
+      "status_id": "457505901710003769",
+      "author_display": "Luca Diallo 🚲",
+      "author_handle": "@luca_diallo_photo@toot.cafe",
+      "display_time": "10h",
+      "text": "Our tiny team shipped release 4.15 after 51 days of testing. cc @imani_kim_n 🙌 #OpenSource",
+      "visible_text": "Our tiny team shipped release 4.15 after 51 days of testing. cc @imani_kim_n 🙌 #OpenSource",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 0,
+        "boosts": 2,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/36474afb00.png"
+    }
+  ]
+}

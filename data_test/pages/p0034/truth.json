@@ -1,0 +1,131 @@
+{
+  "page_id": "p0034",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0034_0",
+      "status_id": "907170427449827993",
+      "author_display": "Dmitri Adeyemi 🚲",
+      "author_handle": "@dmitri_adeyemi@mstdn.social",
+      "display_time": "44m",
+      "text": "Our neighbourhood mesh network now has 5 nodes running.",
+      "visible_text": "Our neighbourhood mesh network now has 5 nodes running.",
+      "content_warning": "food (meat)",
+      "boosted_by": "Rosa Fischer",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 4,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "cw",
+        "boost"
+      ],
+      "avatar": "img/715a7ddb37.png"
+    },
+    {
+      "post_id": "p0034_1",
+      "status_id": "210372275403757251",
+      "author_display": "Freya Kim 📷",
+      "author_handle": "@freya_kimreads@scholar.social",
+      "display_time": "47m",
+      "text": "Interesting study: https://riverbend.news/2026/7262 My dog has decided the keyboard is the warmest spot in the house. 💡 #FOSS #OpenSource #Rust",
+      "visible_text": "Interesting study: https://riverbend.news/2026/7262 My dog has decided the keyboard is the warmest spot in the house. 💡 #FOSS #OpenSource #Rust",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://riverbend.news/2026/7262",
+        "title": "What we learned running Python for 6 months",
+        "domain": "riverbend.news",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/4ec4caecf6.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 0,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/35e10040e7.png"
+    },
+    {
+      "post_id": "p0034_2",
+      "status_id": "980263130668990157",
+      "author_display": "Ines Abbott",
+      "author_handle": "@inesabbott@toot.cafe",
+      "display_time": "1h",
+      "text": "The rain finally stopped and the whole street smells like wet pavement. Reading The Dispossessed again and it hits differently this year. Started a reading log and I am already behind by 25 pages. Is it just me or did Kubernetes get noticeably faster in the last release? Our tiny team shipped release 4.17 after 42 days of testing. The tortoise next door learned to open our gate. We are negotiating. Packing list for the weekend trip is 11 items long and somehow still missing socks. cc @sam_iyer_art 🔥 #Accessibility #OpenSource #ClimateAction",
+      "visible_text": "The rain finally stopped and the whole street smells like wet pavement. Reading The Dispossessed again and it hits differently this year. Started a reading log and I am already behind by 25 pages. Is it just me or did Kubernetes get noticeably faster",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 1,
+        "favourites": 3
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich"
+      ],
+      "avatar": "img/d31063303b.png"
+    },
+    {
+      "post_id": "p0034_3",
+      "status_id": "952478300451592736",
+      "author_display": "Sakura 🚲",
+      "author_handle": "@sakura42@chaos.social",
+      "display_time": "8h",
+      "text": "Accidentally made enough jollof rice for 18 people. Neighbours are getting some. Third attempt at sourdough today and it actually worked. ☕ #Books",
+      "visible_text": "Accidentally made enough jollof rice for 18 people. Neighbours are getting some. Third attempt at sourdough today and it actually worked. ☕ #Books",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 0,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/4d98789def.png"
+    },
+    {
+      "post_id": "p0034_4",
+      "status_id": "992753123711489423",
+      "author_display": "Greta Yilmaz ☕",
+      "author_handle": "@greta_dev@photog.social",
+      "display_time": "8h",
+      "text": "@amara_santos Sketched the riverside path during lunch, still learning how to draw bicycles. Small win: fixed a bug that has been haunting me for 63 weeks. 🐈 #UrbanSketching #HomeLab",
+      "visible_text": "@amara_santos Sketched the riverside path during lunch, still learning how to draw bicycles. Small win: fixed a bug that has been haunting me for 63 weeks. 🐈 #UrbanSketching #HomeLab",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 7,
+        "favourites": 0
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/0dbaca4034.png"
+    }
+  ]
+}

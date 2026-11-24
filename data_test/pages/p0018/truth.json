@@ -1,0 +1,121 @@
+{
+  "page_id": "p0018",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0018_0",
+      "status_id": "700096212018568935",
+      "author_display": "Lena Haddad",
+      "author_handle": "@lena_haddad_eu@fosstodon.org",
+      "display_time": "26m",
+      "text": "Volunteering at the bike co-op this Wednesday, come say hi if you are around. If anyone has a good banana bread recipe that does not need a stand mixer, please share. Thinking about how much I enjoy slow mornings with ramen and no notifications. Reading The Dispossessed again and it hits differently this year. Reminder that the bike repair cafe is open every Friday at the old library. Is it just me or did Python get noticeably faster in the last release? Sketched the city archive during lunch, still learning how to draw bicycles. Finally finished repotting 95 tomato seedlings on the coffee shop on 5th.",
+      "visible_text": "Volunteering at the bike co-op this Wednesday, come say hi if you are around. If anyone has a good banana bread recipe that does not need a stand mixer, please share. Thinking about how much I enjoy slow mornings with ramen and no",
+      "content_warning": null,
+      "boosted_by": "Kai Berg ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 7,
+        "favourites": 6
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "boost"
+      ],
+      "avatar": "img/2a01b3324b.png"
+    },
+    {
+      "post_id": "p0018_1",
+      "status_id": "412488831214542242",
+      "author_display": "Niko Banda 🌱",
+      "author_handle": "@niko_banda_photo@techhub.social",
+      "display_time": "6h",
+      "text": "Our neighbourhood mesh network now has 45 nodes running.",
+      "visible_text": "Our neighbourhood mesh network now has 45 nodes running.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/cb104d9648.png",
+        "alt": "",
+        "embedded_text": "Day 57 of learning Rust",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3089,
+            0.8812,
+            0.3956
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 1,
+        "boosts": 3,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/47058043b4.png"
+    },
+    {
+      "post_id": "p0018_2",
+      "status_id": "454472013420787528",
+      "author_display": "Olu Reyes 🚲",
+      "author_handle": "@olureyes_pdx@hachyderm.io",
+      "display_time": "7h",
+      "text": "Interesting study: https://dailybyte.news/blog/7152 The rain finally stopped and the whole street smells like wet pavement. Third attempt at banana bread today and it actually worked. cc @olu42 🙌 #Weather",
+      "visible_text": "Interesting study: https://dailybyte.news/blog/7152 The rain finally stopped and the whole street smells like wet pavement. Third attempt at banana bread today and it actually worked. cc @olu42 🙌 #Weather",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://dailybyte.news/blog/7152",
+        "title": "23 lessons from a year of composting",
+        "domain": "dailybyte.news",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/3bfd30de72.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/11c6486ac3.png"
+    },
+    {
+      "post_id": "p0018_3",
+      "status_id": "233303069508528023",
+      "author_display": "Greta Reyes",
+      "author_handle": "@greta_reyes@mastodon.social",
+      "display_time": "9h",
+      "text": "Upgraded the home server to Elixir 1.6 without breaking anything, which feels suspicious. 📷 #Linux #ClimateAction #Python",
+      "visible_text": "Upgraded the home server to Elixir 1.6 without breaking anything, which feels suspicious. 📷 #Linux #ClimateAction #Python",
+      "content_warning": null,
+      "boosted_by": "Zoe Adeyemi ☕",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 3,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/a358805165.png"
+    }
+  ]
+}

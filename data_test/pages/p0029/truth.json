@@ -1,0 +1,156 @@
+{
+  "page_id": "p0029",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0029_0",
+      "status_id": "566515536279923187",
+      "author_display": "Owen Nielsen",
+      "author_handle": "@owen_photo@mathstodon.xyz",
+      "display_time": "3h",
+      "text": "Good read: https://kitchenlab.org/blog/3921",
+      "visible_text": "Good read: https://kitchenlab.org/blog/3921",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://kitchenlab.org/blog/3921",
+        "title": "93 lessons from a year of composting",
+        "domain": "kitchenlab.org",
+        "description": "Practical tips from people who tried it.",
+        "thumb": "img/1c0c99cad2.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 5,
+        "boosts": 3,
+        "favourites": 9
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/502cd69b03.png"
+    },
+    {
+      "post_id": "p0029_1",
+      "status_id": "467847143769099346",
+      "author_display": "Niko Haddad ☕",
+      "author_handle": "@niko_dev@mstdn.social",
+      "display_time": "4h",
+      "text": "@dtanakahq Is it just me or did Godot get noticeably faster in the last release? Upgraded the home server to Blender 7.2 without breaking anything, which feels suspicious. #Birding #Caturday",
+      "visible_text": "@dtanakahq Is it just me or did Godot get noticeably faster in the last release? Upgraded the home server to Blender 7.2 without breaking anything, which feels suspicious. #Birding #Caturday",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 2,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/23c0fdbc6f.png"
+    },
+    {
+      "post_id": "p0029_2",
+      "status_id": "457121984515570694",
+      "author_display": "Mara Eriksen",
+      "author_handle": "@mara_eriksen_pdx@fosstodon.org",
+      "display_time": "8h",
+      "text": "This explains it well: https://kitchenlab.org/posts/6334",
+      "visible_text": "This explains it well: https://kitchenlab.org/posts/6334",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://kitchenlab.org/posts/6334",
+        "title": "Inside the volunteer-run the city archive",
+        "domain": "kitchenlab.org",
+        "description": "A long look at what changed and why it matters.",
+        "thumb": "img/8e0e002f16.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 5,
+        "favourites": 173
+      },
+      "truncated": false,
+      "kinds": [
+        "link",
+        "rich"
+      ],
+      "avatar": "img/07bc9c7826.png"
+    },
+    {
+      "post_id": "p0029_3",
+      "status_id": "778205336782577765",
+      "author_display": "Freya Murphy",
+      "author_handle": "@freyamurphy_photo@fosstodon.org",
+      "display_time": "1d",
+      "text": "@gretasantos42 The rabbit next door learned to open our gate. We are negotiating. Reading The Dispossessed again and it hits differently this year. 🌧 #Rust",
+      "visible_text": "@gretasantos42 The rabbit next door learned to open our gate. We are negotiating. Reading The Dispossessed again and it hits differently this year. 🌧 #Rust",
+      "content_warning": null,
+      "boosted_by": "Jonas 🌱",
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 4,
+        "boosts": 0,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich",
+        "boost"
+      ],
+      "avatar": "img/e99b8d513f.png"
+    },
+    {
+      "post_id": "p0029_4",
+      "status_id": "343502910023812621",
+      "author_display": "Lena Sharma",
+      "author_handle": "@lenasharma@ruby.social",
+      "display_time": "1d",
+      "text": "Finally finished repotting 69 tomato seedlings on the train station. ☕ #Birding #MastoArt",
+      "visible_text": "Finally finished repotting 69 tomato seedlings on the train station. ☕ #Birding #MastoArt",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/77267316fa.png",
+        "alt": "",
+        "embedded_text": "NOBODY: JUST ONE MORE TAB",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.3162,
+            0.0556,
+            0.6825,
+            0.1689
+          ],
+          [
+            0.09,
+            0.8244,
+            0.9062,
+            0.96
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 5,
+        "boosts": 3,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image",
+        "rich"
+      ],
+      "avatar": "img/0352278b02.png"
+    }
+  ]
+}

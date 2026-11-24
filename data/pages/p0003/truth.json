@@ -1,0 +1,124 @@
+{
+  "page_id": "p0003",
+  "seed": 7,
+  "posts": [
+    {
+      "post_id": "p0003_0",
+      "status_id": "253057612279205637",
+      "author_display": "Bram",
+      "author_handle": "@bram@mstdn.social",
+      "display_time": "5m",
+      "text": "Reading Piranesi again and it hits differently this year. Our neighbourhood mesh network now has 84 nodes running. Is it just me or did Home Assistant get noticeably faster in the last release? Our tiny team shipped release 3.4 after 78 days of testing. The rain finally stopped and the whole street smells like wet pavement. Reminder that the bike repair cafe is open every Friday at the train station. Spent the whole morning at the train station and saw 73 herons. cc @zoe_mensahhq #MastoArt #Gardening",
+      "visible_text": "Reading Piranesi again and it hits differently this year. Our neighbourhood mesh network now has 84 nodes running. Is it just me or did Home Assistant get noticeably faster in the last release? Our tiny team shipped release 3.4 after 78 days of testing.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 9,
+        "boosts": 184,
+        "favourites": 3
+      },
+      "truncated": true,
+      "kinds": [
+        "truncated",
+        "rich"
+      ],
+      "avatar": "img/0465349484.png"
+    },
+    {
+      "post_id": "p0003_1",
+      "status_id": "488226026259957849",
+      "author_display": "Sofia Carter ☕",
+      "author_handle": "@sofiacarter99@chaos.social",
+      "display_time": "11m",
+      "text": "If anyone has a good dumplings recipe that does not need a stand mixer, please share.",
+      "visible_text": "If anyone has a good dumplings recipe that does not need a stand mixer, please share.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/3f09643e22.png",
+        "alt": "",
+        "embedded_text": "65 unread messages",
+        "kind": "screenshot",
+        "text_boxes": [
+          [
+            0.2188,
+            0.3022,
+            0.8888,
+            0.4022
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 22,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/9c6e5ca180.png"
+    },
+    {
+      "post_id": "p0003_2",
+      "status_id": "112703520909740627",
+      "author_display": "Dmitri Iyer 🚲",
+      "author_handle": "@dmitri_iyerwrites@sfba.social",
+      "display_time": "44m",
+      "text": "Worth your time: https://slowweb.zone/2026/9937",
+      "visible_text": "Worth your time: https://slowweb.zone/2026/9937",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": {
+        "url": "https://slowweb.zone/2026/9937",
+        "title": "How Go quietly became the default choice",
+        "domain": "slowweb.zone",
+        "description": "Short read, about five minutes.",
+        "thumb": "img/e6f195efd5.png"
+      },
+      "image": null,
+      "counts": {
+        "replies": 3,
+        "boosts": 158,
+        "favourites": 3
+      },
+      "truncated": false,
+      "kinds": [
+        "link"
+      ],
+      "avatar": "img/a326587ff4.png"
+    },
+    {
+      "post_id": "p0003_3",
+      "status_id": "701188020476985951",
+      "author_display": "Tariq Abbott 📷",
+      "author_handle": "@tariq_abbott_n@infosec.exchange",
+      "display_time": "2h",
+      "text": "The fox next door learned to open our gate. We are negotiating.",
+      "visible_text": "The fox next door learned to open our gate. We are negotiating.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/0faedd6c8e.png",
+        "alt": "",
+        "embedded_text": null,
+        "kind": "photo",
+        "text_boxes": []
+      },
+      "counts": {
+        "replies": 0,
+        "boosts": 4,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/97ffe00725.png"
+    }
+  ]
+}

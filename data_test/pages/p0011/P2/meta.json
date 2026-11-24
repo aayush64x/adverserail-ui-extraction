@@ -1,0 +1,36 @@
+{
+  "page_id": "p0011",
+  "perturbation": "P2",
+  "perturbation_name": "dom_shuffle",
+  "aimed_at": "text",
+  "severity": 1,
+  "rng_seed": "2027|p0011|P2|1",
+  "params": {
+    "containers_shuffled": 21
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1197
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1197
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 24787,
+    "dom_html_cleaned": 16140,
+    "dom_html": 16140,
+    "dom_html_truncated": false,
+    "inner_txt": 941
+  },
+  "n_posts": 4,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true
+  }
+}

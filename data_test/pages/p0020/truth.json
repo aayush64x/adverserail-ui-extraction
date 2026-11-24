@@ -1,0 +1,118 @@
+{
+  "page_id": "p0020",
+  "seed": 2027,
+  "posts": [
+    {
+      "post_id": "p0020_0",
+      "status_id": "239998942644021245",
+      "author_display": "Kai Rossi",
+      "author_handle": "@kairossi_photo@chaos.social",
+      "display_time": "4h",
+      "text": "Volunteering at my balcony this Tuesday, come say hi if you are around.",
+      "visible_text": "Volunteering at my balcony this Tuesday, come say hi if you are around.",
+      "content_warning": "rant about software",
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 2,
+        "boosts": 4,
+        "favourites": 4
+      },
+      "truncated": false,
+      "kinds": [
+        "cw"
+      ],
+      "avatar": "img/678d2e0d71.png"
+    },
+    {
+      "post_id": "p0020_1",
+      "status_id": "801929826533283390",
+      "author_display": "Aiko Nielsen",
+      "author_handle": "@aiko_nielsen_art@ruby.social",
+      "display_time": "8h",
+      "text": "@thaddad Accidentally made enough sourdough for 52 people. Neighbours are getting some. 🌧 #Books #Birding",
+      "visible_text": "@thaddad Accidentally made enough sourdough for 52 people. Neighbours are getting some. 🌧 #Books #Birding",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 38,
+        "boosts": 2,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "rich"
+      ],
+      "avatar": "img/ac407e4c25.png"
+    },
+    {
+      "post_id": "p0020_2",
+      "status_id": "141778287289963241",
+      "author_display": "Tomás Visser",
+      "author_handle": "@tomasvisser_photo@scholar.social",
+      "display_time": "9h",
+      "text": "Spent the whole morning at our community garden and saw 54 herons. ✨ #FOSS #Baking #Cycling",
+      "visible_text": "Spent the whole morning at our community garden and saw 54 herons. ✨ #FOSS #Baking #Cycling",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": null,
+      "counts": {
+        "replies": 1,
+        "boosts": 2,
+        "favourites": 2
+      },
+      "truncated": false,
+      "kinds": [
+        "plain",
+        "rich"
+      ],
+      "avatar": "img/55bd1b93e0.png"
+    },
+    {
+      "post_id": "p0020_3",
+      "status_id": "843661939255719931",
+      "author_display": "Ravi Sharma 🚲",
+      "author_handle": "@rsharma_ok@social.coop",
+      "display_time": "10h",
+      "text": "Took 34 photos at the night market and exactly one of them is in focus.",
+      "visible_text": "Took 34 photos at the night market and exactly one of them is in focus.",
+      "content_warning": null,
+      "boosted_by": null,
+      "link": null,
+      "image": {
+        "file": "img/89440d67c7.png",
+        "alt": "",
+        "embedded_text": "WHEN THE BUILD PASSES JUST ONE MORE TAB",
+        "kind": "meme",
+        "text_boxes": [
+          [
+            0.0475,
+            0.0644,
+            0.9537,
+            0.1667
+          ],
+          [
+            0.09,
+            0.8244,
+            0.9062,
+            0.96
+          ]
+        ]
+      },
+      "counts": {
+        "replies": 3,
+        "boosts": 1,
+        "favourites": 1
+      },
+      "truncated": false,
+      "kinds": [
+        "image"
+      ],
+      "avatar": "img/81e1dcc39d.png"
+    }
+  ]
+}

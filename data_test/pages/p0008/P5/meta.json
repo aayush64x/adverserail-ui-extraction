@@ -1,0 +1,37 @@
+{
+  "page_id": "p0008",
+  "perturbation": "P5",
+  "perturbation_name": "canvas_text",
+  "aimed_at": "text",
+  "severity": 1,
+  "rng_seed": "2027|p0008|P5|1",
+  "params": {
+    "canvases": 5
+  },
+  "viewport": {
+    "width": 1000,
+    "height": 900
+  },
+  "page_size": {
+    "width": 1000,
+    "height": 1466
+  },
+  "screenshot_size": {
+    "width": 1000,
+    "height": 1466
+  },
+  "screenshot_scale": 1.0,
+  "chars": {
+    "dom_html_raw": 27957,
+    "dom_html_cleaned": 17886,
+    "dom_html": 17886,
+    "dom_html_truncated": false,
+    "inner_txt": 488
+  },
+  "n_posts": 5,
+  "browser": "153.0.8010.12",
+  "checks": {
+    "ok": true,
+    "canvas_text_leaked": []
+  }
+}
